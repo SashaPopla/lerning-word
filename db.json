@@ -1,6 +1,6 @@
 {
   "words": [
-    {
+{
       "english": "jugular vein",
       "ukrainian": "яремна вена",
       "part_of_speech": "Noun"
@@ -368,7 +368,7 @@
     {
       "english": "angiogram (c1)",
       "ukrainian": "ангіограма",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "arterial inflow phase (c2)",
@@ -378,77 +378,77 @@
     {
       "english": "malformation (c2)",
       "ukrainian": "аномалія, порушення структури",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "circle of willis (c2)",
       "ukrainian": "судинне коло Вілліса",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "cardiac catheterization (c2)",
       "ukrainian": "катетеризація серця",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "ventriculogram (c2)",
       "ukrainian": "вентрикулографія",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "ecmo (extracorporeal membrane oxygenation) (c2)",
       "ukrainian": "екстракорпоральна мембранна оксигенація",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "femoral vessels (c2)",
       "ukrainian": "стегнові судини",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "anastomotic grafts (c2)",
       "ukrainian": "анастомотичні трансплантати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "bp (blood pressure) (b2)",
       "ukrainian": "артеріальний тиск",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "v-fib (ventricular fibrillation) (c2)",
       "ukrainian": "фібриляція шлуночків",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "bnp (b-type natriuretic peptide) (c2)",
       "ukrainian": "пептидний біомаркер серцевої недостатності",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "eeg (electroencephalogram) (b2)",
       "ukrainian": "електроенцефалографія",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "ekg / ecg (electrocardiogram) (b2)",
       "ukrainian": "електрокардіограма",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "cardio protein levels (c2)",
       "ukrainian": "рівень серцевих білків",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "metabolic demand (c1)",
       "ukrainian": "метаболічне навантаження",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "stabilize (b2)",
       "ukrainian": "стабілізувати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "regain consciousness (c1)",
@@ -458,92 +458,92 @@
     {
       "english": "bypass (c2)",
       "ukrainian": "обійти, створити шунт",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "inflate (c2)",
       "ukrainian": "надувати, розширювати (наприклад балонний катетер)",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "abort (c2)",
       "ukrainian": "припиняти процедуру",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "sever (c2)",
       "ukrainian": "роз’єднувати, відділяти",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "acquiesce (c2)",
       "ukrainian": "поступитися, погодитися без протесту",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "redistribute (c2)",
       "ukrainian": "перерозподіляти",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "monitor (b2)",
       "ukrainian": "спостерігати, контролювати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "tolerate (b2/c1)",
       "ukrainian": "витримувати, переносити",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "awake (b2)",
       "ukrainian": "у свідомості",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "unresponsive (c1)",
       "ukrainian": "без відповіді, не реагуючий",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "higher-cognitive (c2)",
       "ukrainian": "високорозвинений когнітивний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "massive (b2/c1)",
       "ukrainian": "величезний, масивний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "catastrophic (c2)",
       "ukrainian": "катастрофічний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "identical (b2)",
       "ukrainian": "ідентичний, однаковий",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "monozygotic (c2)",
       "ukrainian": "однояйцеві",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "peacefully (b2)",
       "ukrainian": "спокійно, безболісно",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "virtually (b2)",
       "ukrainian": "практично, фактично",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "closely (b2)",
       "ukrainian": "уважно, ретельно",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "off life support (c1)",
@@ -643,97 +643,97 @@
     {
       "english": "donor (b2)",
       "ukrainian": "донор",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "identical twin (b2)",
       "ukrainian": "однояйцеві близнюки",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "balloon tissue expanders (c1)",
       "ukrainian": "балонні розширювачі тканин",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "separation surgery (c1)",
       "ukrainian": "операція з роз’єднання",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "craniopagus twins (c2)",
       "ukrainian": "сростні в ділянці черепа близнюки",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "renal-vascular system (c2)",
       "ukrainian": "нирково-судинна система",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "renal vein rupture (c2)",
       "ukrainian": "розрив ниркової вени",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "end-stage failure (c2)",
       "ukrainian": "термінальна стадія органної недостатності",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "transplant registry (c1)",
       "ukrainian": "реєстр трансплантацій",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "ureter (c2)",
       "ukrainian": "сечовід",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "iliac fossa (c2)",
       "ukrainian": "клубова ямка",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "renal vessel (c2)",
       "ukrainian": "ниркова судина",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "suture (c1)",
       "ukrainian": "шов",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "fascial layer (c2)",
       "ukrainian": "фасціальний шар",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "clamp (b2)",
       "ukrainian": "затискач, кліпса",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "sagittal sinus vein (c2)",
       "ukrainian": "сагітальна пазуха (вена)",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "graft (c2)",
       "ukrainian": "трансплантат, пересаджена тканина",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "vitals (c1)",
       "ukrainian": "життєво важливі показники",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "establish (b2)",
       "ukrainian": "встановлювати (контакт, діагноз)",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "file a complaint (b2)",
@@ -743,12 +743,12 @@
     {
       "english": "prepare (b2)",
       "ukrainian": "підготувати (пацієнта, орган)",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "recover (b2)",
       "ukrainian": "одужувати, відновлюватися",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "triple confirm (c1)",
@@ -758,17 +758,17 @@
     {
       "english": "deteriorate (c2)",
       "ukrainian": "погіршуватися",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "disconnect (c2)",
       "ukrainian": "від’єднувати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "oxygenate (c2)",
       "ukrainian": "насичувати киснем",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "push the envelope (c2, idiom)",
@@ -778,7 +778,7 @@
     {
       "english": "finalize (b2)",
       "ukrainian": "завершувати, узгоджувати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "weigh in (c1, idiom)",
@@ -793,47 +793,47 @@
     {
       "english": "end-stage (c2)",
       "ukrainian": "термінальний, фінальний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "interdependent (c2)",
       "ukrainian": "взаємозалежний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "shorthanded (b2)",
       "ukrainian": "неповноцінний по складу, нестача персоналу",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "unprofessional (c1)",
       "ukrainian": "непрофесійний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "inexcusable (c2)",
       "ukrainian": "непробачний, неприпустимий",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "relatively (b2)",
       "ukrainian": "відносно",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "immediately (b2)",
       "ukrainian": "негайно",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "personally (b2)",
       "ukrainian": "особисто",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "independently (b2)",
       "ukrainian": "самостійно",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "call in sick (b2)",
@@ -892,762 +892,763 @@
     },
     {
       "english": "aneurysm",
-      "ukrainian": "аневризма ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "аневризма",
+      "part_of_speech": "Noun"
     },
     {
       "english": "stroke",
-      "ukrainian": "інсульт ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "інсульт",
+      "part_of_speech": "Noun"
     },
     {
       "english": "intracranial pressure",
-      "ukrainian": "внутрішньочерепний тиск ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "внутрішньочерепний тиск",
+      "part_of_speech": "Noun"
     },
     {
       "english": "subarachnoid hemorrhage",
-      "ukrainian": "субарахноїдальний крововилив ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "субарахноїдальний крововилив",
+      "part_of_speech": "Noun"
     },
     {
       "english": "anterior communicating artery",
-      "ukrainian": "передня сполучна артерія ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "передня сполучна артерія",
+      "part_of_speech": "Noun"
     },
     {
       "english": "ct (computed tomography)",
-      "ukrainian": "КТ (комп’ютерна томографія) ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "КТ (комп’ютерна томографія)",
+      "part_of_speech": "Noun"
     },
     {
       "english": "vitals / vital signs",
-      "ukrainian": "життєві показники ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "життєві показники",
+      "part_of_speech": "Noun"
     },
     {
       "english": "bronchoscopy",
-      "ukrainian": "бронхоскопія ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "бронхоскопія",
+      "part_of_speech": "Noun"
     },
     {
       "english": "mucosal biopsy",
-      "ukrainian": "біопсія слизової ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "біопсія слизової",
+      "part_of_speech": "Noun"
     },
     {
       "english": "endothelial lining",
-      "ukrainian": "ендотеліальна вистилка ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "ендотеліальна вистилка",
+      "part_of_speech": "Noun"
     },
     {
       "english": "mucosal edema",
-      "ukrainian": "набряк слизової ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "набряк слизової",
+      "part_of_speech": "Noun"
     },
     {
       "english": "partial-thickness burn",
-      "ukrainian": "опік середньої глибини ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "опік середньої глибини",
+      "part_of_speech": "Noun"
     },
     {
       "english": "petroleum dressing",
-      "ukrainian": "мазева пов’язка ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "мазева пов’язка",
+      "part_of_speech": "Noun"
     },
     {
       "english": "chemical toxicity",
-      "ukrainian": "хімічна токсичність ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "хімічна токсичність",
+      "part_of_speech": "Noun"
     },
     {
       "english": "dimethyl sulfate",
-      "ukrainian": "диметилсульфат ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "диметилсульфат",
+      "part_of_speech": "Noun"
     },
     {
       "english": "ethanol",
-      "ukrainian": "етиловий спирт ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "етиловий спирт",
+      "part_of_speech": "Noun"
     },
     {
       "english": "hemorrhage",
-      "ukrainian": "кровотеча ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "кровотеча",
+      "part_of_speech": "Noun"
     },
     {
       "english": "forceps",
-      "ukrainian": "щипці для медичних маніпуляцій ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "щипці для медичних маніпуляцій",
+      "part_of_speech": "Noun"
     },
     {
       "english": "consent",
-      "ukrainian": "згода ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "згода",
+      "part_of_speech": "Noun"
     },
     {
       "english": "procedure",
-      "ukrainian": "медична процедура ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "медична процедура",
+      "part_of_speech": "Noun"
     },
     {
       "english": "broadspectrum antibiotics",
-      "ukrainian": "антибіотики широкого спектру ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "антибіотики широкого спектру",
+      "part_of_speech": "Noun"
     },
     {
       "english": "steroids / methylprednisolone",
-      "ukrainian": "стероїди / метилпреднізолон ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "стероїди / метилпреднізолон",
+      "part_of_speech": "Noun"
     },
     {
       "english": "blood pressure (bp)",
-      "ukrainian": "кров’яний тиск ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "кров’яний тиск",
+      "part_of_speech": "Noun"
     },
     {
       "english": "inflammation",
-      "ukrainian": "запалення ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "запалення",
+      "part_of_speech": "Noun"
     },
     {
       "english": "bronchial wall",
-      "ukrainian": "стінка бронху ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "стінка бронху",
+      "part_of_speech": "Noun"
     },
     {
       "english": "vertebral artery",
-      "ukrainian": "хребетна артерія ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "хребетна артерія",
+      "part_of_speech": "Noun"
     },
     {
       "english": "operate / perform surgery",
-      "ukrainian": "оперувати ✅*",
+      "ukrainian": "оперувати",
       "part_of_speech": "Phrase/Other"
     },
     {
       "english": "clip (an aneurysm)",
-      "ukrainian": "накладати кліп на аневризму ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "накладати кліп на аневризму",
+      "part_of_speech": "Verb"
     },
     {
       "english": "debride",
-      "ukrainian": "робити дебридмент ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "робити дебридмент",
+      "part_of_speech": "Verb"
     },
     {
       "english": "cleanse",
-      "ukrainian": "очищати ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "очищати",
+      "part_of_speech": "Verb"
     },
     {
       "english": "cover (with dressing)",
-      "ukrainian": "накривати пов’язкою ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "накривати пов’язкою",
+      "part_of_speech": "Verb"
     },
     {
       "english": "sedate",
-      "ukrainian": "вводити в стан седації ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "вводити в стан седації",
+      "part_of_speech": "Verb"
     },
     {
       "english": "isolate (the aneurysm)",
-      "ukrainian": "ізолювати аневризму ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "ізолювати аневризму",
+      "part_of_speech": "Verb"
     },
     {
       "english": "inject dye",
-      "ukrainian": "вводити контраст ✅*",
+      "ukrainian": "вводити контраст",
       "part_of_speech": "Phrase/Other"
     },
     {
       "english": "insert (platinum matrix)",
-      "ukrainian": "встановлювати платинову спіраль ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "встановлювати платинову спіраль",
+      "part_of_speech": "Verb"
     },
     {
       "english": "ablate / embolize",
-      "ukrainian": "абляція / емболізація ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "абляція / емболізація",
+      "part_of_speech": "Verb"
     },
     {
       "english": "approximate edges",
-      "ukrainian": "зшивати краї тканин ✅*",
+      "ukrainian": "зшивати краї тканин",
       "part_of_speech": "Phrase/Other"
     },
     {
       "english": "administer medication",
-      "ukrainian": "давати ліки ✅*",
+      "ukrainian": "давати ліки",
       "part_of_speech": "Phrase/Other"
     },
     {
       "english": "ruptured",
-      "ukrainian": "розірваний ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "розірваний",
+      "part_of_speech": "Adjective"
     },
     {
       "english": "compromised (blood flow)",
-      "ukrainian": "порушений ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "порушений",
+      "part_of_speech": "Adjective"
     },
     {
       "english": "conservative (treatment)",
-      "ukrainian": "консервативний ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "консервативний",
+      "part_of_speech": "Adjective"
     },
     {
       "english": "acute",
-      "ukrainian": "гострий ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "гострий",
+      "part_of_speech": "Adjective"
     },
     {
       "english": "stable (vital signs)",
-      "ukrainian": "стабільний ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "стабільний",
+      "part_of_speech": "Adjective"
     },
     {
       "english": "thermal / chemical",
-      "ukrainian": "термічний / хімічний ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "термічний / хімічний",
+      "part_of_speech": "Adjective"
     },
     {
       "english": "mild / significant",
-      "ukrainian": "легкий / значний ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "легкий / значний",
+      "part_of_speech": "Adjective"
     },
     {
       "english": "inflamed",
-      "ukrainian": "запалений ✅*",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "запалений",
+      "part_of_speech": "Adjective"
     },
     {
       "english": "immediately / right away",
-      "ukrainian": "негайно*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "conservatively",
-      "ukrainian": "консервативно ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "effectively",
-      "ukrainian": "ефективно*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "suddenly",
-      "ukrainian": "раптово*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "high risk of rupture",
-      "ukrainian": "високий ризик розриву ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "post-operative imaging",
-      "ukrainian": "післяопераційне обстеження ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "endovascular procedure",
-      "ukrainian": "ендоваскулярне втручання ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "mucosal brush for cellular sample",
-      "ukrainian": "щіточка для забору клітин ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "manage conservatively",
-      "ukrainian": "лікувати консервативно ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "pulmonary inflammation",
-      "ukrainian": "запалення легень ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "chemical inhalation",
-      "ukrainian": "інгаляція хімікатів ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "stabilize before retrying procedure",
-      "ukrainian": "стабілізувати перед повторним втручанням ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "broad-spectrum antibiotics vs steroids",
-      "ukrainian": "дилема: антибіотики широкого спектра проти стероїдів ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "restore blood flow",
-      "ukrainian": "відновити кровоток ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "act quickly",
-      "ukrainian": "діяти швидко*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "follow-up testing",
-      "ukrainian": "контрольні обстеження ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "work with dimethyl sulfate",
-      "ukrainian": "працювати з диметилсульфатом ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "take care of (patient)",
-      "ukrainian": "піклуватися про пацієнта*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "go over (procedure / results)",
-      "ukrainian": "переглянути процедуру / результати*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "push (medication)",
-      "ukrainian": "вводити болюсно ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "switch to (treatment)",
-      "ukrainian": "перевести на інший метод лікування ✅*",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "transplant",
-      "ukrainian": "трансплантація ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "organ donor",
-      "ukrainian": "донор органів ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "recipient",
-      "ukrainian": "реципієнт ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "liver failure",
-      "ukrainian": "печінкова недостатність ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "hepatic function",
-      "ukrainian": "функція печінки ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "dialysis",
-      "ukrainian": "діаліз ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "renal failure",
-      "ukrainian": "ниркова недостатність ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "cardiac arrest",
-      "ukrainian": "зупинка серця ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "resuscitation",
-      "ukrainian": "реанімація ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "brain death",
-      "ukrainian": "смерть мозку ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "consent form",
-      "ukrainian": "форма згоди ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "blood type compatibility",
-      "ukrainian": "сумісність груп крові ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "immune response",
-      "ukrainian": "імунна реакція ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "rejection (organ)",
-      "ukrainian": "відторгнення органа ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "immunosuppressant drugs",
-      "ukrainian": "імуносупресанти ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "tissue match",
-      "ukrainian": "тканинна сумісність ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "anesthesia",
-      "ukrainian": "анестезія ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "sutures",
-      "ukrainian": "шви ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "scalpel",
-      "ukrainian": "скальпель ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "clot",
-      "ukrainian": "згусток ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "oxygen saturation (o₂ sat)",
-      "ukrainian": "насичення киснем ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "resident",
-      "ukrainian": "лікар-ординатор ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "attending physician",
-      "ukrainian": "лікуючий лікар ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "scrub nurse",
-      "ukrainian": "операційна медсестра ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "or (operating room)",
-      "ukrainian": "операційна ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "chart / medical chart",
-      "ukrainian": "історія хвороби ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "vitals",
-      "ukrainian": "життєві показники ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "blood vessel",
-      "ukrainian": "кровоносна судина ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "coagulopathy",
-      "ukrainian": "порушення згортання крові ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "platelet count",
-      "ukrainian": "кількість тромбоцитів ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "harvest (an organ)",
-      "ukrainian": "вилучати орган ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "donate",
-      "ukrainian": "донувати ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "intubate",
-      "ukrainian": "інтубувати ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "ventilate",
-      "ukrainian": "штучно вентилювати ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "monitor (vitals)",
-      "ukrainian": "контролювати показники ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "suture / stitch",
-      "ukrainian": "зашивати ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "administer (drugs, fluids)",
-      "ukrainian": "вводити ліки ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "inject",
-      "ukrainian": "робити ін’єкцію ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "clamp",
-      "ukrainian": "перетискати судину ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "irrigate (wound)",
-      "ukrainian": "промивати рану ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "replace (organ, fluid)",
-      "ukrainian": "замінювати ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "confirm (diagnosis)",
-      "ukrainian": "підтверджувати діагноз ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "evaluate (organ function)",
-      "ukrainian": "оцінювати функцію ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "operate on",
-      "ukrainian": "оперувати ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "recover / heal",
-      "ukrainian": "одужувати ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "disinfect",
-      "ukrainian": "дезінфікувати ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "sustain (injury)",
-      "ukrainian": "отримати травму ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "reject (organ)",
-      "ukrainian": "відторгати орган ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "donor / recipient-compatible",
-      "ukrainian": "сумісний ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "viable (organ, tissue)",
-      "ukrainian": "життєздатний ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "critical",
-      "ukrainian": "критичний ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "stable / unstable",
-      "ukrainian": "стабільний / нестабільний ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "sedated",
-      "ukrainian": "під дією седативних ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "unresponsive",
-      "ukrainian": "без реакції ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "deceased",
-      "ukrainian": "померлий (у клінічному значенні) ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "post-operative",
-      "ukrainian": "післяопераційний ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "contaminated (wound)",
-      "ukrainian": "інфікований ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "infectious",
-      "ukrainian": "заразний ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "sterile",
-      "ukrainian": "стерильний ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "severe (pain, bleeding)",
-      "ukrainian": "сильний, тяжкий ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "intravenously (iv)",
-      "ukrainian": "внутрішньовенно ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "postoperatively",
-      "ukrainian": "після операції ✅",
-      "part_of_speech": "Phrase/Other"
-    },
-    {
-      "english": "immediately",
       "ukrainian": "негайно",
       "part_of_speech": "Phrase/Other"
     },
     {
-      "english": "consciously / unconsciously",
-      "ukrainian": "свідомо / несвідомо",
+      "english": "conservatively",
+      "ukrainian": "консервативно",
+      "part_of_speech": "Adverb"
+    },
+    {
+      "english": "effectively",
+      "ukrainian": "ефективно",
+      "part_of_speech": "Adverb"
+    },
+    {
+      "english": "suddenly",
+      "ukrainian": "раптово",
+      "part_of_speech": "Adverb"
+    },
+    {
+      "english": "high risk of rupture",
+      "ukrainian": "високий ризик розриву",
       "part_of_speech": "Phrase/Other"
     },
     {
-      "english": "clinically",
-      "ukrainian": "клінічно ✅",
+      "english": "post-operative imaging",
+      "ukrainian": "післяопераційне обстеження",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "endovascular procedure",
+      "ukrainian": "ендоваскулярне втручання",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "mucosal brush for cellular sample",
+      "ukrainian": "щіточка для забору клітин",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "manage conservatively",
+      "ukrainian": "лікувати консервативно",
       "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "pulmonary inflammation",
+      "ukrainian": "запалення легень",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "chemical inhalation",
+      "ukrainian": "інгаляція хімікатів",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "stabilize before retrying procedure",
+      "ukrainian": "стабілізувати перед повторним втручанням",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "broad-spectrum antibiotics vs steroids",
+      "ukrainian": "дилема: антибіотики широкого спектра проти стероїдів",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "restore blood flow",
+      "ukrainian": "відновити кровоток",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "act quickly",
+      "ukrainian": "діяти швидко",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "follow-up testing",
+      "ukrainian": "контрольні обстеження",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "work with dimethyl sulfate",
+      "ukrainian": "працювати з диметилсульфатом",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "take care of (patient)",
+      "ukrainian": "піклуватися про пацієнта",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "go over (procedure / results)",
+      "ukrainian": "переглянути процедуру / результати",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "push (medication)",
+      "ukrainian": "вводити болюсно",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "switch to (treatment)",
+      "ukrainian": "перевести на інший метод лікування",
+      "part_of_speech": "Phrase/Other"
+    },
+
+    {
+      "english": "transplant",
+      "ukrainian": "трансплантація",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "organ donor",
+      "ukrainian": "донор органів",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "recipient",
+      "ukrainian": "реципієнт",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "liver failure",
+      "ukrainian": "печінкова недостатність",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "hepatic function",
+      "ukrainian": "функція печінки",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "dialysis",
+      "ukrainian": "діаліз",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "renal failure",
+      "ukrainian": "ниркова недостатність",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "cardiac arrest",
+      "ukrainian": "зупинка серця",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "resuscitation",
+      "ukrainian": "реанімація",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "brain death",
+      "ukrainian": "смерть мозку",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "consent form",
+      "ukrainian": "форма згоди",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "blood type compatibility",
+      "ukrainian": "сумісність груп крові",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "immune response",
+      "ukrainian": "імунна реакція",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "rejection (organ)",
+      "ukrainian": "відторгнення органа",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "immunosuppressant drugs",
+      "ukrainian": "імуносупресанти",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "tissue match",
+      "ukrainian": "тканинна сумісність",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "anesthesia",
+      "ukrainian": "анестезія",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "sutures",
+      "ukrainian": "шви",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "scalpel",
+      "ukrainian": "скальпель",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "clot",
+      "ukrainian": "згусток",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "oxygen saturation (o₂ sat)",
+      "ukrainian": "насичення киснем",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "resident",
+      "ukrainian": "лікар-ординатор",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "attending physician",
+      "ukrainian": "лікуючий лікар",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "scrub nurse",
+      "ukrainian": "операційна медсестра",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "or (operating room)",
+      "ukrainian": "операційна",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "chart / medical chart",
+      "ukrainian": "історія хвороби",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "vitals",
+      "ukrainian": "життєві показники",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "blood vessel",
+      "ukrainian": "кровоносна судина",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "coagulopathy",
+      "ukrainian": "порушення згортання крові",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "platelet count",
+      "ukrainian": "кількість тромбоцитів",
+      "part_of_speech": "Noun"
+    },
+    {
+      "english": "harvest (an organ)",
+      "ukrainian": "вилучати орган",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "donate",
+      "ukrainian": "донувати",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "intubate",
+      "ukrainian": "інтубувати",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "ventilate",
+      "ukrainian": "штучно вентилювати",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "monitor (vitals)",
+      "ukrainian": "контролювати показники",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "suture / stitch",
+      "ukrainian": "зашивати",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "administer (drugs, fluids)",
+      "ukrainian": "вводити ліки",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "inject",
+      "ukrainian": "робити ін’єкцію",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "clamp",
+      "ukrainian": "перетискати судину",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "irrigate (wound)",
+      "ukrainian": "промивати рану",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "replace (organ, fluid)",
+      "ukrainian": "замінювати",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "confirm (diagnosis)",
+      "ukrainian": "підтверджувати діагноз",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "evaluate (organ function)",
+      "ukrainian": "оцінювати функцію",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "operate on",
+      "ukrainian": "оперувати",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "recover / heal",
+      "ukrainian": "одужувати",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "disinfect",
+      "ukrainian": "дезінфікувати",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "sustain (injury)",
+      "ukrainian": "отримати травму",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "reject (organ)",
+      "ukrainian": "відторгати орган",
+      "part_of_speech": "Verb"
+    },
+    {
+      "english": "donor / recipient-compatible",
+      "ukrainian": "сумісний",
+      "part_of_speech": "Adjective"
+    },
+    {
+      "english": "viable (organ, tissue)",
+      "ukrainian": "життєздатний",
+      "part_of_speech": "Adjective"
+    },
+    {
+      "english": "critical",
+      "ukrainian": "критичний",
+      "part_of_speech": "Adjective"
+    },
+    {
+      "english": "stable / unstable",
+      "ukrainian": "стабільний / нестабільний",
+      "part_of_speech": "Adjective"
+    },
+    {
+      "english": "sedated",
+      "ukrainian": "під дією седативних",
+      "part_of_speech": "Adjective"
+    },
+    {
+      "english": "unresponsive",
+      "ukrainian": "без реакції",
+      "part_of_speech": "Adjective"
+    },
+    {
+      "english": "deceased",
+      "ukrainian": "померлий (у клінічному значенні)",
+      "part_of_speech": "Adjective"
+    },
+    {
+      "english": "post-operative",
+      "ukrainian": "післяопераційний",
+      "part_of_speech": "Adjective"
+    },
+    {
+      "english": "contaminated (wound)",
+      "ukrainian": "інфікований",
+      "part_of_speech": "Adjective"
+    },
+    {
+      "english": "infectious",
+      "ukrainian": "заразний",
+      "part_of_speech": "Adjective"
+    },
+    {
+      "english": "sterile",
+      "ukrainian": "стерильний",
+      "part_of_speech": "Adjective"
+    },
+    {
+      "english": "severe (pain, bleeding)",
+      "ukrainian": "сильний, тяжкий",
+      "part_of_speech": "Adjective"
+    },
+    {
+      "english": "intravenously (iv)",
+      "ukrainian": "внутрішньовенно",
+      "part_of_speech": "Adverb"
+    },
+    {
+      "english": "postoperatively",
+      "ukrainian": "після операції",
+      "part_of_speech": "Adverb"
+    },
+    {
+      "english": "immediately",
+      "ukrainian": "негайно",
+      "part_of_speech": "Adverb"
+    },
+    {
+      "english": "consciously / unconsciously",
+      "ukrainian": "свідомо / несвідомо",
+      "part_of_speech": "Adverb"
+    },
+    {
+      "english": "clinically",
+      "ukrainian": "клінічно",
+      "part_of_speech": "Adverb"
     },
     {
       "english": "gradually",
       "ukrainian": "поступово",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "rapidly",
       "ukrainian": "швидко",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "accurately",
       "ukrainian": "точно",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "organ procurement surgery",
-      "ukrainian": "операція з вилучення органа ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "операція з вилучення органа",
+      "part_of_speech": "Noun"
     },
     {
       "english": "post-operative complications",
-      "ukrainian": "післяопераційні ускладнення ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "післяопераційні ускладнення",
+      "part_of_speech": "Noun"
     },
     {
       "english": "severe internal bleeding",
-      "ukrainian": "сильна внутрішня кровотеча ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "сильна внутрішня кровотеча",
+      "part_of_speech": "Noun"
     },
     {
       "english": "monitor oxygen saturation",
-      "ukrainian": "контролювати насичення киснем ✅",
+      "ukrainian": "контролювати насичення киснем",
       "part_of_speech": "Phrase/Other"
     },
     {
       "english": "prescribe immunosuppressant drugs",
-      "ukrainian": "призначати імуносупресанти ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "призначати імуносупресанти",
+      "part_of_speech": "Verb"
     },
     {
       "english": "prepare the operating room",
-      "ukrainian": "підготувати операційну ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "підготувати операційну",
+      "part_of_speech": "Verb"
     },
     {
       "english": "call the code / code blue",
-      "ukrainian": "оголосити код (реанімаційна ситуація) ✅",
+      "ukrainian": "оголосити код (реанімаційна ситуація)",
       "part_of_speech": "Phrase/Other"
     },
     {
       "english": "declare brain death",
-      "ukrainian": "констатувати смерть мозку ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "констатувати смерть мозку",
+      "part_of_speech": "Verb"
     },
     {
       "english": "connect to life support",
-      "ukrainian": "підключити до апарату життєзабезпечення ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "підключити до апарату життєзабезпечення",
+      "part_of_speech": "Verb"
     },
     {
       "english": "check for crossmatch",
-      "ukrainian": "перевірити перехресну сумісність ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "перевірити перехресну сумісність",
+      "part_of_speech": "Verb"
     },
     {
       "english": "sustain organ viability",
-      "ukrainian": "підтримувати життєздатність органа ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "підтримувати життєздатність органа",
+      "part_of_speech": "Verb"
     },
     {
       "english": "sign consent form",
-      "ukrainian": "підписати згоду ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "підписати згоду",
+      "part_of_speech": "Verb"
     },
     {
       "english": "prep the patient for surgery",
-      "ukrainian": "підготувати пацієнта до операції ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "підготувати пацієнта до операції",
+      "part_of_speech": "Verb"
     },
     {
       "english": "clamp the artery",
-      "ukrainian": "перетиснути артерію ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "перетиснути артерію",
+      "part_of_speech": "Verb"
     },
     {
       "english": "suture the incision",
-      "ukrainian": "зашити розріз ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "зашити розріз",
+      "part_of_speech": "Verb"
     },
     {
       "english": "apply pressure to the wound",
-      "ukrainian": "притиснути рану ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "притиснути рану",
+      "part_of_speech": "Verb"
     },
     {
       "english": "time is life",
-      "ukrainian": "час рятує життя (аналог “time is brain”) ✅",
+      "ukrainian": "час рятує життя (аналог “time is brain”)",
       "part_of_speech": "Phrase/Other"
     },
     {
@@ -1657,12 +1658,12 @@
     },
     {
       "english": "flatline on the monitor",
-      "ukrainian": "зупинка серця на моніторі ✅",
+      "ukrainian": "зупинка серця на моніторі",
       "part_of_speech": "Phrase/Other"
     },
     {
       "english": "pull through",
-      "ukrainian": "вижити після важкого стану ✅",
+      "ukrainian": "вижити після важкого стану",
       "part_of_speech": "Phrase/Other"
     },
     {
@@ -1672,248 +1673,249 @@
     },
     {
       "english": "it’s touch and go",
-      "ukrainian": "критичний, невизначений стан ✅",
+      "ukrainian": "критичний, невизначений стан",
       "part_of_speech": "Phrase/Other"
     },
     {
       "english": "lose the pulse",
-      "ukrainian": "втратити пульс ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "втратити пульс",
+      "part_of_speech": "Verb"
     },
     {
       "english": "bring him back",
-      "ukrainian": "повернути до життя ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "повернути до життя",
+      "part_of_speech": "Verb"
     },
     {
       "english": "hook up (to a monitor / iv)",
-      "ukrainian": "підключити до апарату ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "підключити до апарату",
+      "part_of_speech": "Verb"
     },
     {
       "english": "cut open (the abdomen)",
-      "ukrainian": "розкрити черевну порожнину ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "розкрити черевну порожнину",
+      "part_of_speech": "Verb"
     },
     {
       "english": "sew up (the incision)",
-      "ukrainian": "зашити розріз ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "зашити розріз",
+      "part_of_speech": "Verb"
     },
     {
       "english": "clamp off (bleeding vessel)",
-      "ukrainian": "перетиснути судину ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "перетиснути судину",
+      "part_of_speech": "Verb"
     },
     {
       "english": "come to (regain consciousness)",
-      "ukrainian": "прийти до тями ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "прийти до тями",
+      "part_of_speech": "Verb"
     },
     {
       "english": "check in (patient)",
-      "ukrainian": "зареєструвати пацієнта ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "зареєструвати пацієнта",
+      "part_of_speech": "Verb"
     },
     {
       "english": "take over (case, procedure)",
-      "ukrainian": "взяти на себе випадок ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "взяти на себе випадок",
+      "part_of_speech": "Verb"
     },
     {
       "english": "look after (the patient)",
-      "ukrainian": "доглядати ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "доглядати",
+      "part_of_speech": "Verb"
     },
     {
       "english": "go under (anesthesia)",
-      "ukrainian": "заснути під анестезією ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "заснути під анестезією",
+      "part_of_speech": "Verb"
     },
     {
       "english": "wake up (from anesthesia)",
-      "ukrainian": "прокинутися після наркозу ✅",
-      "part_of_speech": "Phrase/Other"
+      "ukrainian": "прокинутися після наркозу",
+      "part_of_speech": "Verb"
     },
+
     {
       "english": "anomaly (c1) [med]",
       "ukrainian": "аномалія",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "diagnosis (b2) [med]",
       "ukrainian": "діагноз",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "prognosis (c1) [med]",
       "ukrainian": "прогноз (перебігу хвороби)",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "relapse (c1) [med]",
       "ukrainian": "рецидив",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "anesthesia (b2) [med]",
       "ukrainian": "анестезія",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "transplant (b2) [med]",
       "ukrainian": "трансплантація",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "biopsy (c1) [med]",
       "ukrainian": "біопсія",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "lesion (c1) [med]",
       "ukrainian": "ураження тканини",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "contamination (c1) [med]",
       "ukrainian": "зараження, забруднення",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "complication (b2) [med]",
       "ukrainian": "ускладнення",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "consent form (b2) [med]",
       "ukrainian": "форма згоди на лікування",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "vital signs (b2) [med]",
       "ukrainian": "життєві показники",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "impairment (c1) [med]",
       "ukrainian": "порушення функції органу",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "contusion (c2) [med]",
       "ukrainian": "забій, контузія",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "morbidity (c2) [med]",
       "ukrainian": "захворюваність",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "mortality rate (c2) [med]",
       "ukrainian": "рівень смертності",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "surgical resident (b2) [med]",
       "ukrainian": "лікар-інтерн хірургічного відділення",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "tissue rejection (c1) [med]",
       "ukrainian": "відторгнення тканин",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "medical negligence (c1)",
       "ukrainian": "лікарська недбалість",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "ethical dilemma (c1)",
       "ukrainian": "етична дилема",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "donor compatibility (c1) [med]",
       "ukrainian": "сумісність донора",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "patient confidentiality (c1)",
       "ukrainian": "конфіденційність пацієнта",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "hemorrhage (c2) [med]",
       "ukrainian": "кровотеча",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "intubation (c1) [med]",
       "ukrainian": "інтубація",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "metastasis (c2) [med]",
       "ukrainian": "метастаз",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "clinical trial (c1) [med]",
       "ukrainian": "клінічне дослідження",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "suture (c1) [med]",
       "ukrainian": "шов",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "trauma ward (b2) [med]",
       "ukrainian": "травматологічне відділення",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "operate on (b2) [med]",
       "ukrainian": "оперувати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "sedate (c1) [med]",
       "ukrainian": "вводити в стан седації",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "stitch up (b2) [med/phrasal]",
       "ukrainian": "зашивати рану",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "transfuse (c1) [med]",
       "ukrainian": "переливати кров",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "intubate (c1) [med]",
       "ukrainian": "інтубувати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "resuscitate (c1) [med]",
       "ukrainian": "реанімувати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "clamp (c1) [med]",
       "ukrainian": "затискати судину",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "diagnose (b2) [med]",
       "ukrainian": "діагностувати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "administer medication (c1) [med]",
@@ -1928,152 +1930,152 @@
     {
       "english": "stabilize (b2) [med]",
       "ukrainian": "стабілізувати стан",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "implant (c1) [med]",
       "ukrainian": "імплантувати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "evaluate (b2)",
       "ukrainian": "оцінювати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "amputate (c1) [med]",
       "ukrainian": "ампутувати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "sterilize (c1) [med]",
       "ukrainian": "стерилізувати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "reassess (c1)",
       "ukrainian": "переоцінювати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "prescribe (b2) [med]",
       "ukrainian": "виписувати ліки",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "consent to (b2)",
       "ukrainian": "давати згоду",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "oversee (c1)",
       "ukrainian": "контролювати, наглядати",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Verb"
     },
     {
       "english": "benign (c1) [med]",
       "ukrainian": "доброякісний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "malignant (c1) [med]",
       "ukrainian": "злоякісний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "septic (c1) [med]",
       "ukrainian": "септичний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "sterile (b2) [med]",
       "ukrainian": "стерильний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "transmissible (c2) [med]",
       "ukrainian": "такий, що передається",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "congenital (c2) [med]",
       "ukrainian": "вроджений",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "asymptomatic (c1) [med]",
       "ukrainian": "безсимптомний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "postoperative (c1) [med]",
       "ukrainian": "післяопераційний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "critical (b2) [med]",
       "ukrainian": "критичний стан",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "terminal (c1) [med]",
       "ukrainian": "термінальний (кінцева стадія хвороби)",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "viable (c1) [med]",
       "ukrainian": "життєздатний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "non-invasive (c1) [med]",
       "ukrainian": "неінвазивний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "ethical (b2)",
       "ukrainian": "етичний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "experimental (b2)",
       "ukrainian": "експериментальний",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adjective"
     },
     {
       "english": "clinically (c1) [med]",
       "ukrainian": "клінічно",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "aseptically (c2) [med]",
       "ukrainian": "асептично",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "intravenously (c2) [med]",
       "ukrainian": "внутрішньовенно",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "medically (b2)",
       "ukrainian": "з медичної точки зору",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "surgically (c1) [med]",
       "ukrainian": "хірургічно",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "deliberately (c1)",
       "ukrainian": "навмисно",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "precisely (b2)",
       "ukrainian": "точно",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Adverb"
     },
     {
       "english": "perform surgery (b2) [med]",
@@ -2123,17 +2125,17 @@
     {
       "english": "surgical precision (c1)",
       "ukrainian": "хірургічна точність",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "ethical boundaries (c1)",
       "ukrainian": "етичні межі",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "postoperative care (c1) [med]",
       "ukrainian": "післяопераційний догляд",
-      "part_of_speech": "Phrase/Other"
+      "part_of_speech": "Noun"
     },
     {
       "english": "“on the operating table” (b2) [med]",
@@ -2170,6 +2172,7 @@
       "ukrainian": "прийняти важке рішення",
       "part_of_speech": "Phrase/Other"
     },
+
     {
       "english": "come through (b2)",
       "ukrainian": "вижити після операції",

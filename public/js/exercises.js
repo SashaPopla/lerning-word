@@ -60,9 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
           `).join('')}
         </div>
-        <div class="text-center mt-5">
-            <a href="/" class="btn btn-link text-decoration-none text-muted"><i class="bi bi-arrow-left"></i> На головну</a>
-        </div>
       </div>
     `;
     
