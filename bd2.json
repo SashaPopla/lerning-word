@@ -1,0 +1,345 @@
+    {
+      "english": "polymyxin b drops (c2)",
+      "ukrainian": "краплі з поліміксином B",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "x-rays (b2)",
+      "ukrainian": "рентгенівські знімки",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "rib fracture (b2)",
+      "ukrainian": "перелом ребра",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "meat grinder (b1)",
+      "ukrainian": "м’ясорубка",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "bp cuff (b1)",
+      "ukrainian": "манжета для вимірювання тиску",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "ortho-powered driver (c1)",
+      "ukrainian": "ортопедичний електропривід",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "double-action rongeur (c2)",
+      "ukrainian": "двоходовий кусач",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "esophagus (b2)",
+      "ukrainian": "стравохід",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "esophageal mass (c1)",
+      "ukrainian": "утворення у стравоході",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "esophagogastroduodenoscopy / egd (c2)",
+      "ukrainian": "езофагогастродуоденоскопія",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "aneurysm / stroke / transient ischemic attack (c1)",
+      "ukrainian": "аневризма / інсульт / транзиторна ішемічна атака",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "head ct-cta (c2)",
+      "ukrainian": "комп’ютерна томографія голови з ангіографією",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "ligation (c2)",
+      "ukrainian": "перев’язка судин",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "cellulitis (c1)",
+      "ukrainian": "целюлітна інфекція (запалення тканин)",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "ischemic time (c1)",
+      "ukrainian": "період ішемії",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "vascular gaps (c2)",
+      "ukrainian": "розриви судин",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "antibiotic beads (c1)",
+      "ukrainian": "антибіотичні гранули",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "debridement (c2)",
+      "ukrainian": "хірургічне очищення рани",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "fasciocutaneous flap (c2)",
+      "ukrainian": "шкірно-фасціальний клапоть",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "arterial anastomosis (c2)",
+      "ukrainian": "артеріальний анастомоз",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "ulnar / radial arteries (c1)",
+      "ukrainian": "ліктьова / променева артерія",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "posterior tibial artery (c1)",
+      "ukrainian": "задня великогомілкова артерія",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "pathology fridge (b2)",
+      "ukrainian": "холодильник для патматеріалу",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "gallbladder (b2)",
+      "ukrainian": "жовчний міхур",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "acalculous cholecystitis (c2)",
+      "ukrainian": "безкам’яний холецистит",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "hemostasis (c1)",
+      "ukrainian": "гемостаз",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "ultrasonic coagulator (c1)",
+      "ukrainian": "ультразвуковий коагулятор",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "vicryl sutures (c1)",
+      "ukrainian": "шви «Вікрил» (резорбовані)",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "prolene (c1)",
+      "ukrainian": "синтетичний нейлоновий шовний матеріал",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "end-to-end anastomosis (c2)",
+      "ukrainian": "анастомоз «кінець-у-кінець»",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "parachute technique (c2)",
+      "ukrainian": "техніка накладання судинних швів",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "ulna / radius (b2)",
+      "ukrainian": "ліктьова / променева кістка",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "tourniquet (c1)",
+      "ukrainian": "джгут",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "cyanosis (c1)",
+      "ukrainian": "синюшність",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "venous stasis (c1)",
+      "ukrainian": "застій венозної крові",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "flush (b2)",
+      "ukrainian": "промивати",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "irrigate (b2)",
+      "ukrainian": "зрошувати (розчином)",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "excise (c1)",
+      "ukrainian": "вирізати (патологічну тканину)",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "suturing (b2)",
+      "ukrainian": "накладати шви",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "replant (c1)",
+      "ukrainian": "пересаджувати (орган або частину тіла)",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "coagulate (b2)",
+      "ukrainian": "згортатися, коагулювати",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "section (c1)",
+      "ukrainian": "розрізати (тканину, орган)",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "contaminated (b2)",
+      "ukrainian": "забруднений (інфекцією)",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "edematous (c2)",
+      "ukrainian": "набряковий",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "dilated (b2)",
+      "ukrainian": "розширений",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "thickened (b2)",
+      "ukrainian": "потовщений",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "atrophic (c2)",
+      "ukrainian": "атрофічний",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "ruptured eardrum (b2)",
+      "ukrainian": "розірвана барабанна перетинка",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "rule out a broken rib (b2)",
+      "ukrainian": "виключити перелом ребра",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "caught in a meat grinder (b1)",
+      "ukrainian": "потрапити в м’ясорубку",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "prepare for amputation (b2)",
+      "ukrainian": "підготувати до ампутації",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "replantation surgery (c1)",
+      "ukrainian": "операція з повторного прикріплення кінцівки",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "administer polymyxin drops (c1)",
+      "ukrainian": "вводити краплі з поліміксином",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "flush with warm saline (b2)",
+      "ukrainian": "промити теплим фізрозчином",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "perform an esophagogastroduodenoscopy (c2)",
+      "ukrainian": "виконати езофагогастродуоденоскопію",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "ulnar to tibial artery graft (c2)",
+      "ukrainian": "трансплантація від ліктьової до великогомілкової артерії",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "severe tissue contamination (c1)",
+      "ukrainian": "сильне інфікування тканин",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "prepare for closure (b2)",
+      "ukrainian": "підготувати до закриття (рани)",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "adequate debridement (c1)",
+      "ukrainian": "достатнє очищення рани",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "perform arterial anastomosis (c2)",
+      "ukrainian": "виконати судинний анастомоз",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "abdominal ct scan (b2)",
+      "ukrainian": "комп’ютерна томографія черевної порожнини",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "acute cholecystitis (c1)",
+      "ukrainian": "гострий холецистит",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "pass out (b2)",
+      "ukrainian": "знепритомніти",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "throw up (b2)",
+      "ukrainian": "блювати",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "sit this one out (b2)",
+      "ukrainian": "«пропустити» процедуру/чергу",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "work itself out (b2)",
+      "ukrainian": "вирішитися само собою",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "look closely at (b1)",
+      "ukrainian": "уважно розглянути",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "get through (b2)",
+      "ukrainian": "впоратися, пройти через",
+      "part_of_speech": "Phrase/Other"
+    },
+    {
+      "english": "cut open (b2)",
+      "ukrainian": "розрізати, розкрити (тканину)",
+      "part_of_speech": "Phrase/Other"
+    }
