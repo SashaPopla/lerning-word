@@ -319,105 +319,267 @@
       }
     ]
   },
+
   {
     "id": 4,
     "title": "4 Dr. Shaun explores some of the most unique medical mysteries of all time",
     "youtubeId": "videoplayback4",
-    "description": "Dr. Shaun questions a diagnosis and faces an ethical dilemma. Vocabulary: assumption, probe, dilemma.",
+    "description": "Dr. Shaun explores rare cases that defy current paradigms. Vocabulary: anomaly, perplexing, interdisciplinary.",
     "vocabulary": [
-      { "word": "assumption", "def": "Accepted as true without proof" },
-      { "word": "probe", "def": "To examine carefully" },
-      { "word": "dilemma", "def": "A difficult choice" },
-      { "word": "underlying", "def": "Real but not obvious" },
-      { "word": "disclosure", "def": "Making something known" }
+      { "word": "anomaly", "def": "Something that deviates from the norm" },
+      { "word": "obscure", "def": "Not clearly understood or easily seen" },
+      { "word": "diagnostic", "def": "Relating to diagnosis or identifying a disease" },
+      { "word": "perplexing", "def": "Causing confusion or puzzlement" },
+      { "word": "paradigm", "def": "A typical example or pattern of something" },
+      { "word": "hypothesis", "def": "A proposed explanation made on the basis of little evidence" },
+      { "word": "revelation", "def": "A surprising and previously unknown fact discovered" },
+      { "word": "interdisciplinary", "def": "Involving two or more academic disciplines" },
+      { "word": "manifestation", "def": "A visible or tangible example of something abstract" },
+      { "word": "elusive", "def": "Difficult to find, catch, or achieve" }
     ],
     "questions": [
       {
-        "question": "Dr. Shaun questions his initial ___.",
-        "options": [
-          { "text": "assumption", "isCorrect": true },
-          { "text": "salary", "isCorrect": false },
-          { "text": "clothing", "isCorrect": false }
-        ],
-        "feedback": "Correct."
-      },
-      {
-        "question": "They need to ___ the underlying cause.",
-        "options": [
-          { "text": "probe", "isCorrect": true },
-          { "text": "ignore", "isCorrect": false },
-          { "text": "hide", "isCorrect": false }
-        ],
-        "feedback": "Correct. Probe means investigate."
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Unique Medical Mysteries",
-    "youtubeId": "sV7cBFLabY0",
-    "description": "Shaun explores rare cases. Vocabulary: anomaly, hypothesis, interdisciplinary, perplexing.",
-    "vocabulary": [
-      { "word": "anomaly", "def": "Deviation from the norm" },
-      { "word": "obscure", "def": "Not clearly understood" },
-      { "word": "hypothesis", "def": "Proposed explanation" },
-      { "word": "perplexing", "def": "Confusing" },
-      { "word": "paradigm", "def": "A typical example or pattern" }
-    ],
-    "questions": [
-      {
-        "question": "This case is an ___ that defies our current paradigm.",
+        "question": "Dr. Shaun says: 'This case is not just rare; it’s an ___ that defies our current paradigm.'",
         "options": [
           { "text": "anomaly", "isCorrect": true },
           { "text": "accident", "isCorrect": false },
           { "text": "animal", "isCorrect": false }
         ],
-        "feedback": "Correct."
+        "feedback": "Correct. Anomaly means a deviation from the norm."
       },
       {
-        "question": "The symptoms were so ___ that specialists were baffled.",
+        "question": "Narrator: 'Her symptoms were so ___ that even the most experienced specialists were baffled.'",
         "options": [
           { "text": "perplexing", "isCorrect": true },
           { "text": "simple", "isCorrect": false },
           { "text": "funny", "isCorrect": false }
         ],
-        "feedback": "Correct."
+        "feedback": "Correct. Perplexing means confusing."
+      },
+      {
+        "question": "Dr. Shaun: 'The manifestation of the disease is ___ rather than overt.'",
+        "options": [
+          { "text": "obscure", "isCorrect": true },
+          { "text": "clear", "isCorrect": false },
+          { "text": "loud", "isCorrect": false }
+        ],
+        "feedback": "Correct. Obscure means not clearly seen."
+      },
+      {
+        "question": "We formed an ___ team of cardiology, neurology and infectious-disease.",
+        "options": [
+          { "text": "interdisciplinary", "isCorrect": true },
+          { "text": "angry", "isCorrect": false },
+          { "text": "internet", "isCorrect": false }
+        ],
+        "feedback": "Correct. A team involving multiple disciplines."
+      },
+      {
+        "question": "Finally, a ___: the real culprit was a hidden virus.",
+        "options": [
+          { "text": "revelation", "isCorrect": true },
+          { "text": "reservation", "isCorrect": false },
+          { "text": "reception", "isCorrect": false }
+        ],
+        "feedback": "Correct. Revelation is a surprising fact discovered."
+      }
+    ]
+  },
+
+  {
+    "id": 5,
+    "title": "5 Unique Medical Mysteries",
+    "youtubeId": "sV7cBFLabY0",
+    "description": "Dr. Shaun explores rare cases that defy current paradigms. Vocabulary: anomaly, perplexing, interdisciplinary.",
+    "vocabulary": [
+      { "word": "anomaly", "def": "Something that deviates from the norm" },
+      { "word": "obscure", "def": "Not clearly understood or easily seen" },
+      { "word": "diagnostic", "def": "Relating to diagnosis or identifying a disease" },
+      { "word": "perplexing", "def": "Causing confusion or puzzlement" },
+      { "word": "paradigm", "def": "A typical example or pattern of something" },
+      { "word": "hypothesis", "def": "A proposed explanation based on little evidence" },
+      { "word": "revelation", "def": "A surprising and previously unknown fact discovered" },
+      { "word": "interdisciplinary", "def": "Involving two or more academic disciplines" },
+      { "word": "manifestation", "def": "A visible or tangible example of something abstract" },
+      { "word": "elusive", "def": "Difficult to find, catch, or achieve" }
+    ],
+    "questions": [
+      {
+        "question": "Dr. Shaun says: 'This case is not just rare; it’s an ___ that defies our current paradigm.'",
+        "options": [
+          { "text": "anomaly", "isCorrect": true },
+          { "text": "accident", "isCorrect": false },
+          { "text": "animal", "isCorrect": false }
+        ],
+        "feedback": "Correct. Anomaly means a deviation from the norm."
+      },
+      {
+        "question": "Narrator: 'Her symptoms were so ___ that even the most experienced specialists were baffled.'",
+        "options": [
+          { "text": "perplexing", "isCorrect": true },
+          { "text": "simple", "isCorrect": false },
+          { "text": "funny", "isCorrect": false }
+        ],
+        "feedback": "Correct. Perplexing means confusing."
+      },
+      {
+        "question": "Dr. Shaun: 'The manifestation of the disease is ___ rather than overt.'",
+        "options": [
+          { "text": "obscure", "isCorrect": true },
+          { "text": "clear", "isCorrect": false },
+          { "text": "loud", "isCorrect": false }
+        ],
+        "feedback": "Correct. Obscure means not clearly seen."
+      },
+      {
+        "question": "We formed an ___ team of cardiology, neurology and infectious-disease.",
+        "options": [
+          { "text": "interdisciplinary", "isCorrect": true },
+          { "text": "angry", "isCorrect": false },
+          { "text": "internet", "isCorrect": false }
+        ],
+        "feedback": "Correct. A team involving multiple disciplines."
+      },
+      {
+        "question": "Finally, a ___: the real culprit was a hidden virus.",
+        "options": [
+          { "text": "revelation", "isCorrect": true },
+          { "text": "reservation", "isCorrect": false },
+          { "text": "reception", "isCorrect": false }
+        ],
+        "feedback": "Correct. Revelation is a surprising fact discovered."
       }
     ]
   },
   {
     "id": 6,
-    "title": "Dr. Shaun Fails to Save a Baby",
-    "youtubeId": "OPMGxYyoePk",
-    "description": "A tragic neonatal case. Vocabulary: resuscitation, prognosis, palliative, grief.",
+    "title": "6 Dr. Shaun Fails to Save a Baby",
+    "youtubeId": "videoplayback6",
+    "description": "Dr. Murphy notices an anomaly during a procedure and decides to intervene. Learn key surgical vocabulary.",
     "vocabulary": [
-      { "word": "resuscitation", "def": "Reviving from unconsciousness" },
-      { "word": "prognosis", "def": "Predicted outcome" },
-      { "word": "palliate", "def": "Ease symptoms without curing" },
-      { "word": "futile", "def": "Pointless" },
-      { "word": "grief", "def": "Intense sorrow" }
+      { "word": "procedure", "def": "A medical operation or method of treatment" },
+      { "word": "anomaly", "def": "Something abnormal or irregular in a patient’s body" },
+      { "word": "incision", "def": "A cut made during surgery" },
+      { "word": "complication", "def": "An unexpected medical problem during or after surgery" },
+      { "word": "sterile", "def": "Completely clean and free from bacteria" },
+      { "word": "contamination", "def": "The presence of harmful substances or infection" },
+      { "word": "diagnosis", "def": "The act of identifying a disease from its signs" },
+      { "word": "intervene", "def": "To step in or take action to prevent harm" },
+      { "word": "protocol", "def": "A set of rules or procedures to follow in medical settings" },
+      { "word": "suture", "def": "A stitch used to close a wound" }
     ],
     "questions": [
       {
-        "question": "The surgeon orders ___ to try to revive the infant.",
+        "question": "General Understanding: Why does Dr. Shaun stop the surgery?",
         "options": [
-          { "text": "resuscitation", "isCorrect": true },
-          { "text": "lunch", "isCorrect": false },
-          { "text": "sleep", "isCorrect": false }
+          { "text": "He notices an anomaly not seen on scans", "isCorrect": true },
+          { "text": "He is tired and needs a break", "isCorrect": false },
+          { "text": "He forgot the correct procedure", "isCorrect": false }
         ],
-        "feedback": "Correct."
+        "feedback": "Correct. He saw something irregular that wasn't in the plan."
       },
       {
-        "question": "The discussion turns to how to ___ the symptoms.",
+        "question": "How does the surgical team initially react to his interruption?",
         "options": [
-          { "text": "palliate", "isCorrect": true },
-          { "text": "ignore", "isCorrect": false },
-          { "text": "worsen", "isCorrect": false }
+          { "text": "They are surprised and hesitant", "isCorrect": true },
+          { "text": "They immediately agree with him", "isCorrect": false },
+          { "text": "They ask him to leave the room", "isCorrect": false }
         ],
-        "feedback": "Correct."
+        "feedback": "Correct. Stopping mid-surgery breaks protocol, so they were shocked."
+      },
+      {
+        "question": "Gap Fill: 'This ___ isn’t what the scans showed — stop cutting!'",
+        "options": [
+          { "text": "anomaly", "isCorrect": true },
+          { "text": "procedure", "isCorrect": false },
+          { "text": "protocol", "isCorrect": false }
+        ],
+        "feedback": "Correct. Anomaly means something abnormal."
+      },
+      {
+        "question": "Gap Fill: 'We need to close the ___ immediately and reassess.'",
+        "options": [
+          { "text": "incision", "isCorrect": true },
+          { "text": "door", "isCorrect": false },
+          { "text": "monitor", "isCorrect": false }
+        ],
+        "feedback": "Correct. Incision is the surgical cut."
+      },
+      {
+        "question": "Gap Fill: 'If we continue, there’s a high risk of ___.'",
+        "options": [
+          { "text": "complication", "isCorrect": true },
+          { "text": "success", "isCorrect": false },
+          { "text": "recovery", "isCorrect": false }
+        ],
+        "feedback": "Correct. Unexpected actions lead to complications."
+      },
+      {
+        "question": "Gap Fill: 'Dr. Murphy, you can’t just ___ in the middle of an operation!'",
+        "options": [
+          { "text": "intervene", "isCorrect": true },
+          { "text": "sleep", "isCorrect": false },
+          { "text": "leave", "isCorrect": false }
+        ],
+        "feedback": "Correct. To intervene means to step in."
+      },
+      {
+        "question": "Gap Fill: 'There’s possible ___ of the surgical field.'",
+        "options": [
+          { "text": "contamination", "isCorrect": true },
+          { "text": "sterilization", "isCorrect": false },
+          { "text": "illumination", "isCorrect": false }
+        ],
+        "feedback": "Correct. Contamination means the area is no longer sterile."
+      },
+      {
+        "question": "Gap Fill: 'Keep the area ___, change gloves, new instruments.'",
+        "options": [
+          { "text": "sterile", "isCorrect": true },
+          { "text": "warm", "isCorrect": false },
+          { "text": "open", "isCorrect": false }
+        ],
+        "feedback": "Correct. Sterile means germ-free."
+      },
+      {
+        "question": "Gap Fill: 'Let’s double-check the patient’s ___; maybe we missed something.'",
+        "options": [
+          { "text": "diagnosis", "isCorrect": true },
+          { "text": "name", "isCorrect": false },
+          { "text": "insurance", "isCorrect": false }
+        ],
+        "feedback": "Correct. They need to verify what disease they are treating."
+      },
+      {
+        "question": "Gap Fill: 'We’ll need to ___ and re-suture the area.'",
+        "options": [
+          { "text": "suture", "isCorrect": true },
+          { "text": "cut", "isCorrect": false },
+          { "text": "break", "isCorrect": false }
+        ],
+        "feedback": "Correct. Suture means to stitch up."
+      },
+      {
+        "question": "Gap Fill: 'We must follow hospital ___ even if the situation changes.'",
+        "options": [
+          { "text": "protocol", "isCorrect": true },
+          { "text": "gossip", "isCorrect": false },
+          { "text": "map", "isCorrect": false }
+        ],
+        "feedback": "Correct. Protocol is the set of rules."
+      },
+      {
+        "question": "Gap Fill: 'It’s rare to stop a ___ halfway, but Shaun made the right call.'",
+        "options": [
+          { "text": "procedure", "isCorrect": true },
+          { "text": "lunch", "isCorrect": false },
+          { "text": "meeting", "isCorrect": false }
+        ],
+        "feedback": "Correct. Procedure refers to the medical operation."
       }
     ]
   },
+  
   {
     "id": 7,
     "title": "Excellent Medical Plan",
