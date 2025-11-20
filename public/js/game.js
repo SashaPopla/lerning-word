@@ -7,7 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const startVideoQuizBtn = document.getElementById('start-video-quiz');
 
   // --- ЗАПУСК ПРИ СТАРТІ ---
+  //loadExerciseRound();
   loadTestRound();
+  //loadVideoRound();
 
   if(startVideoQuizBtn) {
     startVideoQuizBtn.addEventListener('click', loadVideoRound);

@@ -3,79 +3,153 @@
     "id": 1,
     "title": "Dr. Shaun stops an ongoing surgery",
     "youtubeId": "WxCp-7RYL9E",
-    "description": "Watch Dr. Shaun intervene during a procedure. Learn vocabulary related to surgery protocols.",
+    "description": "Dr. Murphy notices an anomaly during a procedure and decides to intervene. Learn key surgical vocabulary.",
     "vocabulary": [
-      { "word": "anomaly", "def": "Something abnormal or irregular" },
+      { "word": "procedure", "def": "A medical operation or method of treatment" },
+      { "word": "anomaly", "def": "Something abnormal or irregular in a patient’s body" },
       { "word": "incision", "def": "A cut made during surgery" },
-      { "word": "complication", "def": "An unexpected medical problem" },
+      { "word": "complication", "def": "An unexpected medical problem during or after surgery" },
       { "word": "sterile", "def": "Completely clean and free from bacteria" },
-      { "word": "protocol", "def": "A set of rules or procedures" },
       { "word": "contamination", "def": "The presence of harmful substances or infection" },
-      { "word": "intervene", "def": "To step in or take action to prevent harm" }
+      { "word": "diagnosis", "def": "The act of identifying a disease from its signs" },
+      { "word": "intervene", "def": "To step in or take action to prevent harm" },
+      { "word": "protocol", "def": "A set of rules or procedures to follow" },
+      { "word": "suture", "def": "A stitch used to close a wound" }
     ],
     "questions": [
       {
-        "question": "Why does Dr. Shaun stop the surgery?",
+        "question": "General Understanding: Why does Dr. Shaun stop the surgery?",
         "options": [
           { "text": "He notices an anomaly not seen on scans", "isCorrect": true },
           { "text": "He is tired and needs a break", "isCorrect": false },
-          { "text": "The patient woke up", "isCorrect": false }
+          { "text": "He forgot the correct procedure", "isCorrect": false }
         ],
-        "feedback": "Correct! He saw an anomaly that could cause complications."
+        "feedback": "Correct. He saw something irregular that wasn't in the plan."
       },
       {
-        "question": "Complete the quote: 'We need to close the ___ immediately.'",
+        "question": "How does the surgical team initially react to his interruption?",
+        "options": [
+          { "text": "They are surprised and hesitant", "isCorrect": true },
+          { "text": "They immediately agree with him", "isCorrect": false },
+          { "text": "They ask him to leave the room", "isCorrect": false }
+        ],
+        "feedback": "Correct. Stopping mid-surgery breaks protocol, so they were shocked."
+      },
+      {
+        "question": "Gap Fill: 'This ___ isn’t what the scans showed — stop cutting!'",
+        "options": [
+          { "text": "anomaly", "isCorrect": true },
+          { "text": "procedure", "isCorrect": false },
+          { "text": "protocol", "isCorrect": false }
+        ],
+        "feedback": "Correct. Anomaly means something abnormal."
+      },
+      {
+        "question": "Gap Fill: 'We need to close the ___ immediately and reassess.'",
         "options": [
           { "text": "incision", "isCorrect": true },
           { "text": "door", "isCorrect": false },
-          { "text": "protocol", "isCorrect": false }
+          { "text": "monitor", "isCorrect": false }
         ],
-        "feedback": "Correct. They need to close the surgical cut."
+        "feedback": "Correct. Incision is the surgical cut."
       },
       {
-        "question": "What word describes a 'set of rules to follow'?",
-        "options": [
-          { "text": "Protocol", "isCorrect": true },
-          { "text": "Suggestion", "isCorrect": false },
-          { "text": "Diagnosis", "isCorrect": false }
-        ],
-        "feedback": "Correct. Breaking protocol is a serious issue in surgery."
-      },
-      {
-        "question": "Dr. Lim warns: 'If we continue, there’s a high risk of ___.'",
+        "question": "Gap Fill: 'If we continue, there’s a high risk of ___.'",
         "options": [
           { "text": "complication", "isCorrect": true },
           { "text": "success", "isCorrect": false },
           { "text": "recovery", "isCorrect": false }
         ],
-        "feedback": "Correct. Unexpected anomalies lead to complications."
+        "feedback": "Correct. Unexpected actions lead to complications."
       },
       {
-        "question": "Dr. Shaun decides to ___ despite the risk of breaking protocol.",
+        "question": "Gap Fill: 'Dr. Murphy, you can’t just ___ in the middle of an operation!'",
         "options": [
           { "text": "intervene", "isCorrect": true },
-          { "text": "leave", "isCorrect": false },
-          { "text": "sleep", "isCorrect": false }
+          { "text": "sleep", "isCorrect": false },
+          { "text": "leave", "isCorrect": false }
         ],
-        "feedback": "Correct. To intervene means to step in and stop the action."
+        "feedback": "Correct. To intervene means to step in."
       },
       {
-        "question": "The team checks for possible ___ of the surgical field.",
+        "question": "Gap Fill: 'There’s possible ___ of the surgical field.'",
         "options": [
           { "text": "contamination", "isCorrect": true },
           { "text": "sterilization", "isCorrect": false },
           { "text": "illumination", "isCorrect": false }
         ],
-        "feedback": "Correct. Contamination makes the area unsafe for surgery."
+        "feedback": "Correct. Contamination means the area is no longer sterile."
       },
       {
-        "question": "It is crucial to keep the instruments ___.",
+        "question": "Gap Fill: 'Keep the area ___, change gloves, new instruments.'",
         "options": [
           { "text": "sterile", "isCorrect": true },
-          { "text": "dirty", "isCorrect": false },
-          { "text": "sharp", "isCorrect": false }
+          { "text": "warm", "isCorrect": false },
+          { "text": "open", "isCorrect": false }
         ],
-        "feedback": "Correct. Sterile means free from bacteria."
+        "feedback": "Correct. Sterile means germ-free."
+      },
+      {
+        "question": "Gap Fill: 'Let’s double-check the patient’s ___; maybe we missed something.'",
+        "options": [
+          { "text": "diagnosis", "isCorrect": true },
+          { "text": "name", "isCorrect": false },
+          { "text": "insurance", "isCorrect": false }
+        ],
+        "feedback": "Correct. They need to verify what disease they are treating."
+      },
+      {
+        "question": "Gap Fill: 'We’ll need to ___ and re-suture the area.'",
+        "options": [
+          { "text": "suture", "isCorrect": true },
+          { "text": "cut", "isCorrect": false },
+          { "text": "break", "isCorrect": false }
+        ],
+        "feedback": "Correct. Suture means to stitch up."
+      },
+      {
+        "question": "Gap Fill: 'We must follow hospital ___ even if the situation changes.'",
+        "options": [
+          { "text": "protocol", "isCorrect": true },
+          { "text": "gossip", "isCorrect": false },
+          { "text": "map", "isCorrect": false }
+        ],
+        "feedback": "Correct. Protocol is the set of rules."
+      },
+      {
+        "question": "Gap Fill: 'It’s rare to stop a ___ halfway, but Shaun made the right call.'",
+        "options": [
+          { "text": "procedure", "isCorrect": true },
+          { "text": "lunch", "isCorrect": false },
+          { "text": "meeting", "isCorrect": false }
+        ],
+        "feedback": "Correct. Procedure refers to the medical operation."
+      },
+      {
+        "question": "Post-Watching: Was Shaun right to stop the procedure?",
+        "options": [
+          { "text": "Yes, he prioritized patient safety", "isCorrect": true },
+          { "text": "No, he should have stayed quiet", "isCorrect": false }
+        ],
+        "feedback": "Correct. Patient safety always comes first."
+      },
+      {
+        "question": "Definition Check: What is a 'suture'?",
+        "options": [
+          { "text": "A stitch used to close a wound", "isCorrect": true },
+          { "text": "A type of medicine", "isCorrect": false },
+          { "text": "A surgical knife", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      },
+      {
+        "question": "Definition Check: What does 'sterile' mean?",
+        "options": [
+          { "text": "Completely clean and free from bacteria", "isCorrect": true },
+          { "text": "Very cold", "isCorrect": false },
+          { "text": "Dangerous", "isCorrect": false }
+        ],
+        "feedback": "Correct."
       }
     ]
   }

@@ -60,8 +60,9 @@
             <div class="text-center">
               <h4 class="mb-3">Перегляньте відео та виконайте завдання</h4>
               <div class="ratio ratio-16x9 mb-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/9KwuEiBQRnQ?si=iHqeASsHy2rpia63" title="YouTube video player" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>          
+                <video width="560" height="315" controls autobuffer>
+                  <source src="./video/videoplayback.mp4" type="video/mp4">
+                </video>
               </div>
               
               <div id="video-task-container" class="mt-4 text-start">
@@ -76,11 +77,10 @@
             <div id="exercise-game-container" class="text-center">
               <div class="text-center mt-5">
                  <p class="text-muted">Натисніть "Старт" для початку вправ на правопис.</p>
-                 <button class="btn btn-primary mt-3" onclick="loadExerciseRound()">Старт</button>
+                 <button class="btn btn-primary mt-3">Старт</button>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
