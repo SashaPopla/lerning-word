@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <!-- Відео плеєр -->
         <div class="ratio ratio-16x9 mb-5 shadow-lg rounded-3 overflow-hidden bg-dark">
             <video width="320" height="240" controls>
-                <source src="./video/videoplayback.mp4" type="video/mp4">
+                <source src="./video/${lesson.youtubeId}.mp4" type="video/mp4">
             </video>
         </div>
 

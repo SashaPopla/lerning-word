@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Dr. Shaun stops an ongoing surgery",
-    "youtubeId": "WxCp-7RYL9E",
+    "youtubeId": "videoplayback",
     "description": "Dr. Murphy notices an anomaly during a procedure and decides to intervene. Learn key surgical vocabulary.",
     "vocabulary": [
       { "word": "procedure", "def": "A medical operation or method of treatment" },
@@ -148,6 +148,392 @@
           { "text": "Completely clean and free from bacteria", "isCorrect": true },
           { "text": "Very cold", "isCorrect": false },
           { "text": "Dangerous", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Sinus Infection Case",
+    "youtubeId": "videoplayback2", 
+    "description": "Dr. Shaun identifies a blocked sinus and performs a drainage procedure. Vocabulary: congestion, drainage, inflammation.",
+    "vocabulary": [
+      { "word": "transplant", "def": "Transfer of an organ or tissue from one person to another" },
+      { "word": "donor", "def": "Person or body who gives something for use in another" },
+      { "word": "biopsy", "def": "A medical test removing tissue to examine it for disease" },
+      { "word": "irrigation", "def": "The removal or clearing out of waste or unwanted matter" },
+      { "word": "viable", "def": "Able to live or be used; capable of functioning" },
+      { "word": "complication", "def": "Something that increases the difficulty or risk" },
+      { "word": "conduit", "def": "A pipe or channel used to carry fluid or other items" },
+      { "word": "acute", "def": "Sudden, sharp, severe condition" },
+      { "word": "debris", "def": "Material left over or fragments" },
+      { "word": "consent", "def": "The act of giving permission for a medical procedure" }
+    ],
+    "questions": [
+      {
+        "question": "The surgeon says: 'We need the donor liver to remain ___ so we can implant it successfully.'",
+        "options": [
+          { "text": "viable", "isCorrect": true },
+          { "text": "cold", "isCorrect": false },
+          { "text": "dry", "isCorrect": false }
+        ],
+        "feedback": "Correct. Viable means capable of functioning."
+      },
+      {
+        "question": "The team discovers ___ in the vascular conduit that could cause graft failure.",
+        "options": [
+          { "text": "debris", "isCorrect": true },
+          { "text": "blood", "isCorrect": false },
+          { "text": "air", "isCorrect": false }
+        ],
+        "feedback": "Correct. Debris refers to waste or fragments."
+      },
+      {
+        "question": "The patient’s condition changed from chronic to ___, requiring immediate attention.",
+        "options": [
+          { "text": "acute", "isCorrect": true },
+          { "text": "mild", "isCorrect": false },
+          { "text": "stable", "isCorrect": false }
+        ],
+        "feedback": "Correct. Acute means sudden and severe."
+      },
+      {
+        "question": "Before transferring the child, the parents sign ___ for the procedure.",
+        "options": [
+          { "text": "consent", "isCorrect": true },
+          { "text": "checks", "isCorrect": false },
+          { "text": "autographs", "isCorrect": false }
+        ],
+        "feedback": "Correct. Consent is permission."
+      },
+      {
+        "question": "A ___ of infection makes the transplant more complicated.",
+        "options": [
+          { "text": "complication", "isCorrect": true },
+          { "text": "solution", "isCorrect": false },
+          { "text": "benefit", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      },
+      {
+        "question": "They perform liver irrigation to flush out remaining blood and ___.",
+        "options": [
+          { "text": "debris", "isCorrect": true },
+          { "text": "water", "isCorrect": false },
+          { "text": "cells", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      },
+      {
+        "question": "The donor is flown in using a temporary ___ for transport.",
+        "options": [
+          { "text": "conduit", "isCorrect": true },
+          { "text": "box", "isCorrect": false },
+          { "text": "plane", "isCorrect": false }
+        ],
+        "feedback": "Correct. Conduit refers to the channel/method used."
+      },
+      {
+        "question": "The tissue biopsy confirms the organ is free of disease and is ___ for transplant.",
+        "options": [
+          { "text": "viable", "isCorrect": true },
+          { "text": "ready", "isCorrect": false },
+          { "text": "large", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Hidden Questions in Dr. Shaun's Mind",
+    "youtubeId": "videoplayback3",
+    "description": "Dr. Shaun questions a diagnosis and faces an ethical dilemma. Vocabulary: assumption, probe, dilemma, strategist.",
+    "vocabulary": [
+      { "word": "lingering", "def": "Continuing for a long time, often not wanted" },
+      { "word": "assumption", "def": "Something accepted as true without proof" },
+      { "word": "consultation", "def": "A meeting with an expert to seek advice" },
+      { "word": "anxious", "def": "Very worried or nervous about something" },
+      { "word": "probe", "def": "To examine or explore something carefully" },
+      { "word": "underlying", "def": "Real but not immediately obvious" },
+      { "word": "dilemma", "def": "A situation in which a difficult choice must be made" },
+      { "word": "strategist", "def": "A person skilled in planning or managing a plan" },
+      { "word": "disclosure", "def": "The act of making something known or public" },
+      { "word": "perspective", "def": "A particular attitude or way of thinking about something" }
+    ],
+    "questions": [
+      {
+        "question": "Dr. Shaun says: 'I keep having this ___ in the back of my mind.'",
+        "options": [
+          { "text": "assumption", "isCorrect": true },
+          { "text": "headache", "isCorrect": false },
+          { "text": "dream", "isCorrect": false }
+        ],
+        "feedback": "Correct. He questions his initial assumption."
+      },
+      {
+        "question": "The nurse suggests: 'You need to ___ the underlying cause.'",
+        "options": [
+          { "text": "probe", "isCorrect": true },
+          { "text": "ignore", "isCorrect": false },
+          { "text": "hide", "isCorrect": false }
+        ],
+        "feedback": "Correct. Probe means to investigate deeply."
+      },
+      {
+        "question": "Dr. Shaun noticed the patient seemed particularly ___ about the test results.",
+        "options": [
+          { "text": "anxious", "isCorrect": true },
+          { "text": "happy", "isCorrect": false },
+          { "text": "bored", "isCorrect": false }
+        ],
+        "feedback": "Correct. Anxious means worried."
+      },
+      {
+        "question": "Shaun mentions an ethical ___ about how much disclosure the patient should get.",
+        "options": [
+          { "text": "dilemma", "isCorrect": true },
+          { "text": "party", "isCorrect": false },
+          { "text": "award", "isCorrect": false }
+        ],
+        "feedback": "Correct. A dilemma is a difficult choice."
+      },
+      {
+        "question": "Another doctor advises: 'You have to approach this like a ___.'",
+        "options": [
+          { "text": "strategist", "isCorrect": true },
+          { "text": "novice", "isCorrect": false },
+          { "text": "patient", "isCorrect": false }
+        ],
+        "feedback": "Correct. Planning ahead like a strategist."
+      },
+      {
+        "question": "What is the 'underlying cause'?",
+        "options": [
+          { "text": "The real, hidden reason for the problem", "isCorrect": true },
+          { "text": "The visible symptom on the skin", "isCorrect": false },
+          { "text": "The patient's insurance status", "isCorrect": false }
+        ],
+        "feedback": "Correct. Underlying means real but not obvious."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Hidden Questions in Dr. Shaun's Mind",
+    "youtubeId": "91r0ccDuOzE",
+    "description": "Dr. Shaun questions a diagnosis and faces an ethical dilemma. Vocabulary: assumption, probe, dilemma.",
+    "vocabulary": [
+      { "word": "assumption", "def": "Accepted as true without proof" },
+      { "word": "probe", "def": "To examine carefully" },
+      { "word": "dilemma", "def": "A difficult choice" },
+      { "word": "underlying", "def": "Real but not obvious" },
+      { "word": "disclosure", "def": "Making something known" }
+    ],
+    "questions": [
+      {
+        "question": "Dr. Shaun questions his initial ___.",
+        "options": [
+          { "text": "assumption", "isCorrect": true },
+          { "text": "salary", "isCorrect": false },
+          { "text": "clothing", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      },
+      {
+        "question": "They need to ___ the underlying cause.",
+        "options": [
+          { "text": "probe", "isCorrect": true },
+          { "text": "ignore", "isCorrect": false },
+          { "text": "hide", "isCorrect": false }
+        ],
+        "feedback": "Correct. Probe means investigate."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Unique Medical Mysteries",
+    "youtubeId": "sV7cBFLabY0",
+    "description": "Shaun explores rare cases. Vocabulary: anomaly, hypothesis, interdisciplinary, perplexing.",
+    "vocabulary": [
+      { "word": "anomaly", "def": "Deviation from the norm" },
+      { "word": "obscure", "def": "Not clearly understood" },
+      { "word": "hypothesis", "def": "Proposed explanation" },
+      { "word": "perplexing", "def": "Confusing" },
+      { "word": "paradigm", "def": "A typical example or pattern" }
+    ],
+    "questions": [
+      {
+        "question": "This case is an ___ that defies our current paradigm.",
+        "options": [
+          { "text": "anomaly", "isCorrect": true },
+          { "text": "accident", "isCorrect": false },
+          { "text": "animal", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      },
+      {
+        "question": "The symptoms were so ___ that specialists were baffled.",
+        "options": [
+          { "text": "perplexing", "isCorrect": true },
+          { "text": "simple", "isCorrect": false },
+          { "text": "funny", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Dr. Shaun Fails to Save a Baby",
+    "youtubeId": "OPMGxYyoePk",
+    "description": "A tragic neonatal case. Vocabulary: resuscitation, prognosis, palliative, grief.",
+    "vocabulary": [
+      { "word": "resuscitation", "def": "Reviving from unconsciousness" },
+      { "word": "prognosis", "def": "Predicted outcome" },
+      { "word": "palliate", "def": "Ease symptoms without curing" },
+      { "word": "futile", "def": "Pointless" },
+      { "word": "grief", "def": "Intense sorrow" }
+    ],
+    "questions": [
+      {
+        "question": "The surgeon orders ___ to try to revive the infant.",
+        "options": [
+          { "text": "resuscitation", "isCorrect": true },
+          { "text": "lunch", "isCorrect": false },
+          { "text": "sleep", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      },
+      {
+        "question": "The discussion turns to how to ___ the symptoms.",
+        "options": [
+          { "text": "palliate", "isCorrect": true },
+          { "text": "ignore", "isCorrect": false },
+          { "text": "worsen", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Excellent Medical Plan",
+    "youtubeId": "sV7cBFLabY0",
+    "description": "Developing a treatment plan. Vocabulary: diagnosis, recommend, precise, treatment.",
+    "vocabulary": [
+      { "word": "diagnosis", "def": "Identifying a disease" },
+      { "word": "recommend", "def": "To suggest or advise" },
+      { "word": "precise", "def": "Accurate and exact" },
+      { "word": "treatment", "def": "Medical care for an illness" },
+      { "word": "consultation", "def": "Meeting with an expert" }
+    ],
+    "questions": [
+      {
+        "question": "Shaun recommends a less ___ procedure.",
+        "options": [
+          { "text": "invasive", "isCorrect": true },
+          { "text": "expensive", "isCorrect": false },
+          { "text": "quick", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      },
+      {
+        "question": "The final ___ confirms Shaun’s assumption was right.",
+        "options": [
+          { "text": "diagnosis", "isCorrect": true },
+          { "text": "guess", "isCorrect": false },
+          { "text": "lunch", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Big Medical Mission",
+    "youtubeId": "Xghe1Usq7hs",
+    "description": "Working in a field hospital. Vocabulary: triage, emergency, volunteer, stabilize.",
+    "vocabulary": [
+      { "word": "triage", "def": "Prioritizing patients based on urgency" },
+      { "word": "mission", "def": "A humanitarian task" },
+      { "word": "volunteer", "def": "Person offering help without payment" },
+      { "word": "stabilize", "def": "Prevent condition from worsening" },
+      { "word": "equipment", "def": "Necessary tools" }
+    ],
+    "questions": [
+      {
+        "question": "Shaun establishes a ___ area to sort patients.",
+        "options": [
+          { "text": "triage", "isCorrect": true },
+          { "text": "play", "isCorrect": false },
+          { "text": "sleeping", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      },
+      {
+        "question": "Nurses worked to ___ the patient’s vital signs.",
+        "options": [
+          { "text": "stabilize", "isCorrect": true },
+          { "text": "ignore", "isCorrect": false },
+          { "text": "break", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Repercussion of First Surgery",
+    "youtubeId": "oj6_yc5kA8U",
+    "description": "Dealing with mistakes in the OR. Vocabulary: repercussion, suture, supervise, complication.",
+    "vocabulary": [
+      { "word": "repercussion", "def": "Unintended consequence" },
+      { "word": "suture", "def": "Stitch to close a wound" },
+      { "word": "supervise", "def": "To oversee or direct" },
+      { "word": "complication", "def": "Problem after surgery" },
+      { "word": "outcome", "def": "Result of treatment" }
+    ],
+    "questions": [
+      {
+        "question": "The patient developed a severe ___ during the operation.",
+        "options": [
+          { "text": "complication", "isCorrect": true },
+          { "text": "rash", "isCorrect": false },
+          { "text": "appetite", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      },
+      {
+        "question": "They used multiple ___ to control the bleeding.",
+        "options": [
+          { "text": "sutures", "isCorrect": true },
+          { "text": "bandaids", "isCorrect": false },
+          { "text": "medicines", "isCorrect": false }
+        ],
+        "feedback": "Correct."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Complex Brain Surgery",
+    "youtubeId": "h7CjM5Xpwb0",
+    "description": "Navigating critical brain structures. Vocabulary: neurosurgery, craniotomy, tumor.",
+    "vocabulary": [
+      { "word": "craniotomy", "def": "Surgical opening of the skull" },
+      { "word": "neurosurgery", "def": "Surgery on the nervous system" },
+      { "word": "tumor", "def": "Abnormal mass of tissue" }
+    ],
+    "questions": [
+      {
+        "question": "The surgery involves the ___.",
+        "options": [
+          { "text": "brain", "isCorrect": true },
+          { "text": "heart", "isCorrect": false },
+          { "text": "liver", "isCorrect": false }
         ],
         "feedback": "Correct."
       }
