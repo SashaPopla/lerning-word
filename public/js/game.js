@@ -6,16 +6,18 @@ document.addEventListener('DOMContentLoaded', () => {
   const videoTaskContainer = document.getElementById('video-task-container');
   const startVideoQuizBtn = document.getElementById('start-video-quiz');
 
-  // --- ЗАПУСК ПРИ СТАРТІ ---
-  //loadExerciseRound();
-  loadTestRound();
-  //loadVideoRound();
+  // --- ЗАПУСК ПРИ СТАРТІ (PRELOAD ALL) ---
+  // Викликаємо всі функції завантаження відразу.
+  // Вони завантажать JSON у змінні та відрендерять початковий стан.
+  loadTestRound();      
+  //loadExerciseRound();  
+  //loadVideoRound();     
 
   if(startVideoQuizBtn) {
     startVideoQuizBtn.addEventListener('click', loadVideoRound);
   }
   
-  // Слухач перемикання вкладок
+  // Слухач вкладок (залишаємо для гарантії оновлення UI)
   const tabs = document.querySelectorAll('button[data-bs-toggle="tab"]');
   tabs.forEach(tab => {
     tab.addEventListener('shown.bs.tab', (event) => {
@@ -34,25 +36,33 @@ document.addEventListener('DOMContentLoaded', () => {
   let score = 0;
 
   async function loadTestRound() {
-    if (quizData.length === 0) {
-      testContainer.innerHTML = '<div class="text-center py-5"><div class="spinner-border text-primary"></div><p class="mt-2">Loading Medical Quiz...</p></div>';
-      try {
-        const response = await fetch('/data/medical_quiz.json');
-        if (!response.ok) throw new Error('Failed to load quiz data');
-        quizData = await response.json();
-      } catch (error) {
-        testContainer.innerHTML = `<div class="alert alert-danger">Error loading quiz: ${error.message}</div>`;
-        return;
-      }
+    // ПЕРЕВІРКА: Якщо дані вже є, просто показуємо їх
+    if (quizData.length > 0) {
+        // Якщо контейнер порожній (або має старий текст завантаження), рендеримо питання
+        // (Це важливо, бо при перемиканні вкладок HTML може очищатися або перезаписуватися)
+        if (!testContainer.querySelector('.card')) {
+             if (currentQuestionIndex >= quizData.length) showQuizResult();
+             else renderQuestion(quizData[currentQuestionIndex]);
+        }
+        return; 
     }
 
-    if (currentQuestionIndex >= quizData.length) {
-      showQuizResult();
-      return;
+    testContainer.innerHTML = '<div class="text-center py-5"><div class="spinner-border text-primary"></div><p class="mt-2">Loading Medical Quiz...</p></div>';
+    
+    try {
+      const response = await fetch('/data/medical_quiz.json');
+      if (!response.ok) throw new Error('Failed to load quiz data');
+      quizData = await response.json();
+      
+      // Дані отримані - рендеримо перше питання відразу
+      renderQuestion(quizData[currentQuestionIndex]);
+
+    } catch (error) {
+      testContainer.innerHTML = `<div class="alert alert-danger">Error loading quiz: ${error.message}</div>`;
     }
+  }
 
-    const question = quizData[currentQuestionIndex];
-
+  function renderQuestion(question) {
     testContainer.innerHTML = `
       <div class="card border-0 shadow-sm animate-fade-in" style="max-width: 750px; margin: 0 auto;">
         <div class="card-header bg-white border-bottom-0 pt-4 pb-0 d-flex justify-content-between align-items-center">
@@ -109,7 +119,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     nextBtn.addEventListener('click', () => {
       currentQuestionIndex++;
-      loadTestRound();
+      if (currentQuestionIndex >= quizData.length) {
+        showQuizResult();
+      } else {
+        renderQuestion(quizData[currentQuestionIndex]);
+      }
     });
   }
 
@@ -138,18 +152,24 @@ document.addEventListener('DOMContentLoaded', () => {
   let exercisesData = [];
 
   window.loadExerciseRound = async function() {
-    if (exercisesData.length === 0) {
-      exerciseContainer.innerHTML = '<div class="text-center py-5"><div class="spinner-border text-warning"></div><p>Loading exercises...</p></div>';
-      try {
-        const response = await fetch('/data/medical_exercises.json');
-        if (!response.ok) throw new Error('Failed to load exercises');
-        exercisesData = await response.json();
-      } catch (error) {
-        exerciseContainer.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+    // ПЕРЕВІРКА: Якщо дані вже є
+    if (exercisesData.length > 0) {
+        // Перевіряємо, чи відображено меню. Якщо ні (порожньо або лоадер) - малюємо.
+        if (!exerciseContainer.querySelector('.row')) {
+            renderExerciseMenu();
+        }
         return;
-      }
     }
-    renderExerciseMenu();
+
+    exerciseContainer.innerHTML = '<div class="text-center py-5"><div class="spinner-border text-warning"></div><p>Loading exercises...</p></div>';
+    try {
+      const response = await fetch('/data/medical_exercises.json');
+      if (!response.ok) throw new Error('Failed to load exercises');
+      exercisesData = await response.json();
+      renderExerciseMenu();
+    } catch (error) {
+      exerciseContainer.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+    }
   }
 
   function renderExerciseMenu() {
@@ -185,6 +205,7 @@ document.addEventListener('DOMContentLoaded', () => {
     else if (exercise.type === 'word_formation') contentHtml = renderWordFormation(exercise);
     else if (exercise.type === 'correction') contentHtml = renderCorrection(exercise);
     else if (exercise.type === 'reorder') contentHtml = renderReorder(exercise);
+    else if (exercise.type === 'categorization') contentHtml = renderCategorization(exercise);
 
     exerciseContainer.innerHTML = `
       <div class="animate-fade-in" style="max-width: 900px; margin: 0 auto;">
@@ -307,7 +328,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return `<div>${html}</div><button class="btn btn-primary mt-3 px-4" id="check-corr-btn">Check Corrections</button>`;
   }
 
-  // --- 4. Reorder ---
+  // --- 4. Reorder Sentences ---
   function renderReorder(ex) {
     const html = ex.questions.map((q, i) => `
       <div class="mb-4">
@@ -342,6 +363,46 @@ document.addEventListener('DOMContentLoaded', () => {
 
     return `<div>${html}</div><button class="btn btn-primary mt-3 px-4" id="check-reorder-btn">Check Sentences</button>`;
   }
+  
+  // --- 5. Categorization ---
+  function renderCategorization(ex) {
+    const html = ex.questions.map((q, i) => `
+      <div class="mb-4 p-3 bg-light rounded">
+        <h5 class="mb-3 text-center fw-bold text-primary">"${q.word}"</h5>
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+          ${ex.categories.map(cat => `
+            <button class="btn btn-outline-secondary btn-sm cat-btn" data-q="${i}" data-cat="${cat}">${cat}</button>
+          `).join('')}
+        </div>
+        <div class="mt-2 text-center fw-bold" id="cat-res-${i}"></div>
+      </div>
+    `).join('');
+
+    setTimeout(() => {
+      document.querySelectorAll('.cat-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const qIdx = e.target.dataset.q;
+          const selectedCat = e.target.dataset.cat;
+          const correctCat = ex.questions[qIdx].correct;
+          const resDiv = document.getElementById(`cat-res-${qIdx}`);
+          
+          e.target.parentElement.querySelectorAll('button').forEach(b => {
+             b.disabled = true;
+             if (b.dataset.cat === correctCat) b.classList.replace('btn-outline-secondary', 'btn-success');
+          });
+
+          if (selectedCat === correctCat) {
+             resDiv.innerHTML = '<span class="text-success">Correct!</span>';
+          } else {
+             e.target.classList.replace('btn-outline-secondary', 'btn-danger');
+             resDiv.innerHTML = `<span class="text-danger">Incorrect. Correct category: ${correctCat}</span>`;
+          }
+        });
+      });
+    }, 0);
+
+    return `<div>${html}</div>`;
+  }
 
   window.renderExerciseMenu = renderExerciseMenu;
 
@@ -353,23 +414,30 @@ document.addEventListener('DOMContentLoaded', () => {
   let videoLessons = [];
   
   async function loadVideoRound() {
-    if (videoLessons.length === 0) {
-      videoTaskContainer.innerHTML = '<div class="text-center py-5"><div class="spinner-border text-info"></div><p>Loading video lesson...</p></div>';
-      try {
-        const response = await fetch('/data/video_lessons.json');
-        if (!response.ok) throw new Error('Failed to load video');
-        const lessons = await response.json();
-        
-        // Беремо перший урок з масиву
-        if (lessons.length > 0) {
-          startVideoLesson(lessons[0]);
-        } else {
-          videoTaskContainer.innerHTML = '<div class="alert alert-warning">No video lessons available.</div>';
-        }
-        
-      } catch (error) {
-        videoTaskContainer.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+    // ПЕРЕВІРКА: Якщо дані вже є
+    if (videoLessons.length > 0) {
+         // Якщо контейнер не відрендерений, рендеримо
+         if (!videoTaskContainer.querySelector('.card')) {
+             startVideoLesson(videoLessons[0]);
+         }
+         return;
+    }
+
+    videoTaskContainer.innerHTML = '<div class="text-center py-5"><div class="spinner-border text-info"></div><p>Loading video lesson...</p></div>';
+    try {
+      const response = await fetch('/data/video_lessons.json');
+      if (!response.ok) throw new Error('Failed to load video');
+      const lessons = await response.json();
+      videoLessons = lessons; 
+      
+      if (lessons.length > 0) {
+        startVideoLesson(lessons[0]);
+      } else {
+        videoTaskContainer.innerHTML = '<div class="alert alert-warning">No video lessons available.</div>';
       }
+      
+    } catch (error) {
+      videoTaskContainer.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
     }
   }
 
@@ -403,6 +471,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     videoTaskContainer.innerHTML = `
       <div class="animate-fade-in">
+        <h3 class="mb-3 text-center">${lesson.title}</h3>
+        
+        <div class="ratio ratio-16x9 mb-4 shadow rounded overflow-hidden">
+          <iframe src="https://www.youtube.com/embed/${lesson.youtubeId}" title="YouTube video" allowfullscreen></iframe>
+        </div>
+
         <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
             <button class="nav-link active fw-bold px-4" id="pills-vocab-tab" data-bs-toggle="pill" data-bs-target="#pills-vocab" type="button">
