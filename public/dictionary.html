@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Мій Словник</title>
+  <title>Dictionary</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <style>
     .hero-section {
-      background: linear-gradient(135deg, #6f42c1 0%, #a06ee1 100%); /* Фіолетовий градієнт для словника */
+      background: linear-gradient(135deg, #6f42c1 0%, #a06ee1 100%); 
       color: white;
       border-radius: 1rem;
       padding: 2rem;
@@ -26,52 +26,48 @@
 </head>
 <body class="bg-light">
 
-  <!-- Навігація -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
     <div class="container">
       <a class="navbar-brand" href="/">
         <i class="bi bi-heart-pulse-fill text-danger me-2"></i>Medical English App
       </a>
       <div class="navbar-nav ms-auto">
-        <a class="nav-link" href="/">Головна</a>
-        <a class="nav-link active" href="/dictionary.html">Словник</a>
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link active" href="/dictionary.html">Dictionary</a>
       </div>
     </div>
   </nav>
 
   <div class="container" style="max-width: 1000px;">
 
-    <!-- Hero Section -->
     <div class="hero-section shadow-sm text-center">
-      <h2 class="fw-bold mb-2"><i class="bi bi-book-half me-2"></i>Повний Словник</h2>
-      <p class="mb-0 opacity-75">Вся ваша збережена лексика в одному місці.</p>
+      <h2 class="fw-bold mb-2"><i class="bi bi-book-half me-2"></i>Complete Dictionary</h2>
+      <p class="mb-0 opacity-75">All your saved vocabulary in one place.</p>
     </div>
 
-    <!-- Панель управління (Фільтр) -->
     <div class="card shadow-sm border-0 mb-4">
       <div class="card-body p-4">
         <div class="row align-items-center">
           <div class="col-md-6">
             <label for="posFilter" class="form-label fw-bold text-muted small text-uppercase">
-              <i class="bi bi-funnel me-1"></i> Фільтрувати за частиною мови
+              <i class="bi bi-funnel me-1"></i> Filter by part of speech
             </label>
             <select id="posFilter" class="form-select form-select-lg border-2">
-              <option value="all" selected>Всі слова</option>
-              <option value="Noun">Іменник (Noun)</option>
-              <option value="Verb">Дієслово (Verb)</option>
-              <option value="Adjective">Прикметник (Adjective)</option>
-              <option value="Adverb">Прислівник (Adverb)</option>
-              <option value="Phrase/Other">Фрази та інше</option>
+              <option value="all" selected>All words</option>
+              <option value="Noun">Noun</option>
+              <option value="Verb">Verb</option>
+              <option value="Adjective">Adjective</option>
+              <option value="Adverb">Adverb</option>
+              <option value="Phrase/Other">Phrases and more</option>
             </select>
           </div>
           <div class="col-md-6 text-md-end mt-3 mt-md-0">
-             <span class="text-muted small">Знайдено слів: <span id="total-words-count" class="fw-bold text-dark">...</span></span>
+             <span class="text-muted small">Found words: <span id="total-words-count" class="fw-bold text-dark">...</span></span>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Таблиця -->
     <div class="card shadow-sm border-0 overflow-hidden mb-4">
       <div class="table-responsive">
         <table class="table table-hover mb-0 align-middle">
@@ -83,29 +79,23 @@
             </tr>
           </thead>
           <tbody id="dictionary-table-body" class="bg-white">
-            <!-- Сюди JS вставить рядки -->
-            <tr><td colspan="3" class="text-center py-5 text-muted">Завантаження...</td></tr>
+            <tr><td colspan="3" class="text-center py-5 text-muted">Loading...</td></tr>
           </tbody>
         </table>
       </div>
     </div>
     
-    <!-- Пагінація -->
     <nav aria-label="Сторінки словника" class="pb-5">
       <ul class="pagination justify-content-center pagination-lg" id="pagination-container">
-        <!-- Кнопки генеруються JS -->
       </ul>
     </nav>
 
   </div>
 
   <script>
-    // Логіка Словника (Dictionary JS)
-    // Ми залишаємо її тут, всередині файлу, щоб не створювати зайвий файл
-    
     let currentPage = 1;
     let currentPosFilter = 'all';
-    const wordsPerPage = 15; // Трохи більше слів на сторінку
+    const wordsPerPage = 15;
 
     const tableBody = document.getElementById('dictionary-table-body');
     const paginationContainer = document.getElementById('pagination-container');
@@ -142,7 +132,6 @@
       }
       
       words.forEach(word => {
-        // Визначаємо колір бейджика для частини мови
         let badgeClass = 'bg-secondary';
         if (word.part_of_speech === 'Noun') badgeClass = 'bg-primary';
         if (word.part_of_speech === 'Verb') badgeClass = 'bg-success';
@@ -164,7 +153,6 @@
       const { currentPage, totalPages } = pagination;
       if (totalPages <= 1) return;
 
-      // Назад
       const prevDisabled = currentPage === 1 ? 'disabled' : '';
       paginationContainer.innerHTML += `
         <li class="page-item ${prevDisabled}">
@@ -172,7 +160,6 @@
         </li>
       `;
 
-      // Номери (спрощена логіка для краси)
       let startPage = Math.max(1, currentPage - 2);
       let endPage = Math.min(totalPages, currentPage + 2);
 
@@ -189,7 +176,6 @@
 
       if (endPage < totalPages) paginationContainer.innerHTML += `<li class="page-item disabled"><span class="page-link border-0 bg-transparent">...</span></li>`;
 
-      // Вперед
       const nextDisabled = currentPage === totalPages ? 'disabled' : '';
       paginationContainer.innerHTML += `
         <li class="page-item ${nextDisabled}">
@@ -198,7 +184,6 @@
       `;
     }
 
-    // Події
     document.addEventListener('DOMContentLoaded', fetchAndRenderWords);
     
     posFilter.addEventListener('change', (e) => {
@@ -209,14 +194,13 @@
 
     paginationContainer.addEventListener('click', (e) => {
       e.preventDefault();
-      // Шукаємо клік по посиланню або іконці всередині посилання
       const targetLink = e.target.closest('a');
       if (targetLink && targetLink.dataset.page) {
         const page = parseInt(targetLink.dataset.page, 10);
         if (page !== currentPage && page > 0) {
           currentPage = page;
           fetchAndRenderWords();
-          window.scrollTo({ top: 0, behavior: 'smooth' }); // Скрол вгору
+          window.scrollTo({ top: 0, behavior: 'smooth' });
         }
       }
     });
