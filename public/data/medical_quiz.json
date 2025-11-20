@@ -1,41 +1,65 @@
 [
   {
-    "category": "Modern Challenges",
-    "question": "True or False: A doctor’s empathy is as important as their medical skills.",
+    "category": "Modern Challenges (True/False)",
+    "question": "A doctor’s empathy is as important as their medical skills.",
     "options": [
-      { "text": "True", "isCorrect": true, "feedback": "Correct. The article states that emotional connection is essential." },
-      { "text": "False", "isCorrect": false, "feedback": "Incorrect. Empathy is described as essential for building trust." }
+      { "text": "True", "isCorrect": true, "feedback": "Correct. The text states empathy is essential for understanding fears and building trust." },
+      { "text": "False", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Modern Challenges",
-    "question": "True or False: Aneurysms and lacerations are always harmless and easy to treat.",
+    "category": "Modern Challenges (True/False)",
+    "question": "Aneurysms and lacerations are always harmless and easy to treat.",
     "options": [
       { "text": "True", "isCorrect": false, "feedback": "Incorrect. They can turn a routine operation into a critical emergency." },
-      { "text": "False", "isCorrect": true, "feedback": "Correct. These are cited as dangerous complications." }
+      { "text": "False", "isCorrect": true, "feedback": "Correct. These conditions are cited as dangerous complications." }
     ]
   },
   {
-    "category": "Modern Challenges",
-    "question": "True or False: Some diseases can be benign and do not cause serious problems.",
+    "category": "Modern Challenges (True/False)",
+    "question": "Some diseases can be benign and do not cause serious problems.",
     "options": [
       { "text": "True", "isCorrect": true, "feedback": "Correct. Benign means they do not spread or cause serious harm." },
-      { "text": "False", "isCorrect": false, "feedback": "Incorrect. Benign conditions are generally less dangerous." }
+      { "text": "False", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Modern Challenges",
-    "question": "True or False: Invasive treatments never require tubes for breathing or feeding.",
+    "category": "Modern Challenges (True/False)",
+    "question": "An implant can replace or support a damaged body part.",
     "options": [
-      { "text": "True", "isCorrect": false, "feedback": "Incorrect. The text says they often require tubes." },
-      { "text": "False", "isCorrect": true, "feedback": "Correct. Invasive treatments often require supportive tubes." }
+      { "text": "True", "isCorrect": true, "feedback": "Correct." },
+      { "text": "False", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Modern Challenges",
-    "question": "True or False: Pre-existing conditions can increase the risk during surgery.",
+    "category": "Modern Challenges (True/False)",
+    "question": "Invasive treatments never require tubes for breathing or feeding.",
     "options": [
-      { "text": "True", "isCorrect": true, "feedback": "Correct. Conditions like diabetes or heart disease add risk." },
+      { "text": "True", "isCorrect": false, "feedback": "Incorrect. The text states invasive treatments often require tubes." },
+      { "text": "False", "isCorrect": true, "feedback": "Correct." }
+    ]
+  },
+  {
+    "category": "Modern Challenges (True/False)",
+    "question": "Hallucinations can sometimes be caused by medication.",
+    "options": [
+      { "text": "True", "isCorrect": true, "feedback": "Correct." },
+      { "text": "False", "isCorrect": false, "feedback": "Incorrect." }
+    ]
+  },
+  {
+    "category": "Modern Challenges (True/False)",
+    "question": "Pre-existing conditions can increase the risk during surgery.",
+    "options": [
+      { "text": "True", "isCorrect": true, "feedback": "Correct. Conditions like diabetes add risk." },
+      { "text": "False", "isCorrect": false, "feedback": "Incorrect." }
+    ]
+  },
+  {
+    "category": "Modern Challenges (True/False)",
+    "question": "Monitoring blood pressure is important during medical procedures.",
+    "options": [
+      { "text": "True", "isCorrect": true, "feedback": "Correct." },
       { "text": "False", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
@@ -44,7 +68,7 @@
     "question": "Why was the patient intubated?",
     "options": [
       { "text": "To secure his airway", "isCorrect": true, "feedback": "Correct." },
-      { "text": "For comfort", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "For comfort", "isCorrect": false, "feedback": "Incorrect. Intubation is an emergency procedure." },
       { "text": "To check his temperature", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "To administer food", "isCorrect": false, "feedback": "Incorrect." }
     ]
@@ -53,7 +77,7 @@
     "category": "Emergency Case",
     "question": "Where does the trachea bifurcate?",
     "options": [
-      { "text": "Into two main bronchi", "isCorrect": true, "feedback": "Correct. This is the splitting point of the airway." },
+      { "text": "Into two main bronchi", "isCorrect": true, "feedback": "Correct." },
       { "text": "In the stomach", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "In the liver", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "At the larynx", "isCorrect": false, "feedback": "Incorrect." }
@@ -71,192 +95,263 @@
   },
   {
     "category": "Emergency Case",
-    "question": "What caused the perforation in the patient's airway?",
+    "question": "Why was catherisation performed?",
+    "options": [
+      { "text": "To administer medication internally", "isCorrect": true, "feedback": "Correct." },
+      { "text": "To remove a foreign object", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "To take X-rays", "isCorrect": false, "feedback": "Incorrect." }
+    ]
+  },
+  {
+    "category": "Emergency Case",
+    "question": "What caused the perforation?",
     "options": [
       { "text": "A bone fragment from previous trauma", "isCorrect": true, "feedback": "Correct." },
       { "text": "A medical mistake", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "An infection", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "The intubation tube", "isCorrect": false, "feedback": "Incorrect." }
+      { "text": "An infection", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Newspaper Article",
-    "question": "Complete the sentence: 'The patient was admitted in a severely __________ condition.'",
+    "category": "Emergency Case",
+    "question": "What were the nurses monitoring?",
     "options": [
-      { "text": "compromised", "isCorrect": true, "feedback": "Correct. Meaning critical or weakened." },
+      { "text": "His oxygen and vital signs", "isCorrect": true, "feedback": "Correct." },
+      { "text": "His sleep patterns", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "His appetite", "isCorrect": false, "feedback": "Incorrect." }
+    ]
+  },
+  {
+    "category": "Newspaper Article (Gap Fill)",
+    "question": "The patient was admitted in a severely __________ condition.",
+    "options": [
+      { "text": "compromised", "isCorrect": true, "feedback": "Correct." },
       { "text": "reversible", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "calibrate", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "detect abnormalities", "isCorrect": false, "feedback": "Incorrect." }
+      { "text": "calibrate", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Newspaper Article",
-    "question": "Complete the sentence: 'Doctors ordered a complete __________ to __________ in the patient’s system.'",
+    "category": "Newspaper Article (Gap Fill)",
+    "question": "Doctors ordered a complete __________ to detect abnormalities.",
     "options": [
-      { "text": "blood panel / detect abnormalities", "isCorrect": true, "feedback": "Correct." },
-      { "text": "pulse rate / manage symptoms", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "sedative / respond to treatment", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "hospital protocol / insert", "isCorrect": false, "feedback": "Incorrect." }
+      { "text": "blood panel", "isCorrect": true, "feedback": "Correct." },
+      { "text": "pulse rate", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "hospital protocol", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Newspaper Article",
-    "question": "Complete the sentence: 'When the patient did not __________, the medical team decided to insert an airway tube.'",
+    "category": "Newspaper Article (Gap Fill)",
+    "question": "Medication was administered __________ as required by standard protocol.",
+    "options": [
+      { "text": "intravenously", "isCorrect": true, "feedback": "Correct." },
+      { "text": "orally", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "externally", "isCorrect": false, "feedback": "Incorrect." }
+    ]
+  },
+  {
+    "category": "Newspaper Article (Gap Fill)",
+    "question": "When the patient did not __________, the medical team decided to insert a tube.",
     "options": [
       { "text": "respond to treatment", "isCorrect": true, "feedback": "Correct." },
-      { "text": "assess brain activity", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "manage symptoms", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "calibrate", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Newspaper Article",
-    "question": "Complete the sentence: 'Neurologists were called to __________ and determine whether the damage was reversible.'",
+    "category": "Newspaper Article (Gap Fill)",
+    "question": "The situation became a matter of __________.",
+    "options": [
+      { "text": "life and death", "isCorrect": true, "feedback": "Correct." },
+      { "text": "time and money", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "pain and relief", "isCorrect": false, "feedback": "Incorrect." }
+    ]
+  },
+  {
+    "category": "Newspaper Article (Gap Fill)",
+    "question": "Neurologists were called to __________.",
     "options": [
       { "text": "assess brain activity", "isCorrect": true, "feedback": "Correct." },
       { "text": "adjust the ventilator", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "detect abnormalities", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "monitor pulse rate", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Doctor Notes",
-    "question": "Identify the topic of Note C: 'Possible infectious process. Temperature elevated. Antibiotics started.'",
+    "category": "Doctor Notes (Matching)",
+    "question": "Note C: 'Possible infectious process. Temperature elevated.' matches which topic?",
     "options": [
       { "text": "Infectious process", "isCorrect": true, "feedback": "Correct." },
       { "text": "Tumor management", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "Anesthesia complication", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "Crush injury", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Doctor Notes",
-    "question": "Identify the topic of Note E: 'Sudden drop in BP during procedure; suspected pseudo-aneurysm.'",
+    "category": "Doctor Notes (Matching)",
+    "question": "Note E: 'Sudden drop in BP; suspected pseudo-aneurysm.' matches which topic?",
     "options": [
       { "text": "Pseudo-aneurysm concern", "isCorrect": true, "feedback": "Correct." },
-      { "text": "Bleeding and clotting issue", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "Curable condition", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "Tumor management", "isCorrect": false, "feedback": "Incorrect." }
+      { "text": "Bleeding and clotting", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "Curable condition", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Diagnosis",
-    "question": "Diagnosis: 'Condition develops before birth, discovered during prenatal ultrasound. May press on organs.'",
+    "category": "Doctor Notes (Matching)",
+    "question": "Note A: 'No signs of active bleeding and clotting imbalance.' matches which topic?",
+    "options": [
+      { "text": "Bleeding and clotting issue", "isCorrect": true, "feedback": "Correct." },
+      { "text": "Anesthesia complication", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "Infectious process", "isCorrect": false, "feedback": "Incorrect." }
+    ]
+  },
+  {
+    "category": "Diagnosis Guess",
+    "question": "Condition: Develops before birth, discovered via prenatal ultrasound. May press on organs.",
     "options": [
       { "text": "Fetal Tumor", "isCorrect": true, "feedback": "Correct." },
       { "text": "Ectopic Pregnancy", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "Autism Spectrum Disorder", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "Savant Syndrome", "isCorrect": false, "feedback": "Incorrect." }
+      { "text": "Autism Spectrum Disorder", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Diagnosis",
-    "question": "Diagnosis: 'Fluid accumulates around the heart, making it harder to pump.'",
+    "category": "Diagnosis Guess",
+    "question": "Condition: Lump in chest, skin changes, nipple discharge. Treatment includes radiation.",
+    "options": [
+      { "text": "Breast Cancer", "isCorrect": true, "feedback": "Correct." },
+      { "text": "Pericardial Effusion", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "Pneumothorax", "isCorrect": false, "feedback": "Incorrect." }
+    ]
+  },
+  {
+    "category": "Diagnosis Guess",
+    "question": "Condition: Fluid accumulates around the heart, making it hard to pump.",
     "options": [
       { "text": "Pericardial Effusion", "isCorrect": true, "feedback": "Correct." },
-      { "text": "Pneumothorax", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "Heart Attack", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "Brain Aneurysm", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Diagnosis",
-    "question": "Diagnosis: 'Scar tissue forms inside the uterus, leading to absent periods.'",
+    "category": "Diagnosis Guess",
+    "question": "Condition: Scar tissue inside the uterus, leading to absent periods.",
     "options": [
       { "text": "Asherman’s Syndrome", "isCorrect": true, "feedback": "Correct." },
       { "text": "Endometriosis", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "Breast Cancer", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "HIV", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Diagnosis",
-    "question": "Diagnosis: 'Exceptional abilities in math/music alongside developmental differences.'",
+    "category": "Diagnosis Guess",
+    "question": "Condition: Exceptional abilities in math/music alongside developmental differences.",
     "options": [
       { "text": "Savant Syndrome", "isCorrect": true, "feedback": "Correct." },
       { "text": "Autism Spectrum Disorder", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "Brain Cancer", "isCorrect": false, "feedback": "Incorrect." }
+    ]
+  },
+  {
+    "category": "Diagnosis Guess",
+    "question": "Condition: Abnormal cell growth inside the brain. Headaches, seizures.",
+    "options": [
+      { "text": "Brain Cancer", "isCorrect": true, "feedback": "Correct." },
       { "text": "Brain Aneurysm", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "Autoimmune Disorder", "isCorrect": false, "feedback": "Incorrect." }
-    ]
-  },
-  {
-    "category": "Diagnosis",
-    "question": "Diagnosis: 'Air leaks into space between lung and chest wall, causing collapse.'",
-    "options": [
-      { "text": "Pneumothorax", "isCorrect": true, "feedback": "Correct." },
-      { "text": "Pericardial Effusion", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "Pneumonia", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "Asthma", "isCorrect": false, "feedback": "Incorrect." }
-    ]
-  },
-  {
-    "category": "Diagnosis",
-    "question": "Diagnosis: 'Weak spot in a brain blood vessel balloons outward. Rupture causes severe headache.'",
-    "options": [
-      { "text": "Brain Aneurysm", "isCorrect": true, "feedback": "Correct." },
-      { "text": "Brain Cancer", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "Cysticercosis", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "Stroke", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Kidney Transplant",
-    "question": "Gap Fill: 'Prior to surgery, imaging studies were performed __________.'",
+    "category": "Diagnosis Guess",
+    "question": "Condition: Caused by swallowing parasite eggs. Cysts grow in brain/muscles.",
     "options": [
-      { "text": "to map the structure of renal vessels", "isCorrect": true, "feedback": "Correct." },
-      { "text": "to cure the patient", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "to distract the patient", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "to clean the room", "isCorrect": false, "feedback": "Incorrect." }
+      { "text": "Cysticercosis", "isCorrect": true, "feedback": "Correct." },
+      { "text": "HIV", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "Autoimmune Disorder", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Kidney Transplant",
-    "question": "Gap Fill: 'The procedure required constant monitoring of __________, including BP and heart rate.'",
+    "category": "Diagnosis Guess",
+    "question": "Condition: Pregnancy develops outside the uterus, often in fallopian tube.",
     "options": [
-      { "text": "vitals", "isCorrect": true, "feedback": "Correct." },
-      { "text": "the weather", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "the hospital bill", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "the donor's family", "isCorrect": false, "feedback": "Incorrect." }
+      { "text": "Ectopic Pregnancy", "isCorrect": true, "feedback": "Correct." },
+      { "text": "Fetal Tumor", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "Asherman’s Syndrome", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Trauma Case",
-    "question": "What does 'Posterior epistaxis' mean?",
+    "category": "Diagnosis Guess",
+    "question": "Condition: Air leaks into space between lung and chest wall, causing collapse.",
     "options": [
-      { "text": "Nosebleed originating from the back of the nasal cavity", "isCorrect": true, "feedback": "Correct." },
-      { "text": "Severe heart dysfunction", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "Irregular heartbeats", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "Pneumothorax", "isCorrect": true, "feedback": "Correct." },
+      { "text": "Pericardial Effusion", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "Pneumonia", "isCorrect": false, "feedback": "Incorrect." }
+    ]
+  },
+  {
+    "category": "Diagnosis Guess",
+    "question": "Condition: Weak spot in a brain blood vessel balloons outward.",
+    "options": [
+      { "text": "Brain Aneurysm", "isCorrect": true, "feedback": "Correct." },
+      { "text": "Brain Cancer", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "Stroke", "isCorrect": false, "feedback": "Incorrect." }
+    ]
+  },
+  {
+    "category": "Diagnosis Guess",
+    "question": "Condition: Immune system mistakenly attacks body's own tissues.",
+    "options": [
+      { "text": "Autoimmune Disorder", "isCorrect": true, "feedback": "Correct." },
+      { "text": "HIV", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "Infection", "isCorrect": false, "feedback": "Incorrect." }
+    ]
+  },
+  {
+    "category": "Trauma Case (Matching)",
+    "question": "Definition: 'Posterior epistaxis'",
+    "options": [
+      { "text": "Nosebleed from the back of the nasal cavity", "isCorrect": true, "feedback": "Correct." },
+      { "text": "Heart dysfunction", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "Dislocated joint", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Trauma Case",
-    "question": "What does 'Cardiopulmonary failure' refer to?",
+    "category": "Trauma Case (Matching)",
+    "question": "Definition: 'Cardiopulmonary failure'",
     "options": [
       { "text": "Severe heart and lung dysfunction", "isCorrect": true, "feedback": "Correct." },
-      { "text": "A minor cough", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "Kidney failure", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "Broken ribs", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Trauma Case",
-    "question": "What does 'Hand off to' mean?",
+    "category": "Trauma Case (Matching)",
+    "question": "Definition: 'Hand off to'",
     "options": [
-      { "text": "Transferring patient care to the next team", "isCorrect": true, "feedback": "Correct." },
-      { "text": "Physically holding a patient's hand", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "Transferring patient care to next team", "isCorrect": true, "feedback": "Correct." },
       { "text": "Performing surgery", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "Giving medication", "isCorrect": false, "feedback": "Incorrect." }
+      { "text": "Holding hands", "isCorrect": false, "feedback": "Incorrect." }
     ]
   },
   {
-    "category": "Trauma Case",
-    "question": "What are 'PVCs'?",
+    "category": "Trauma Case (Matching)",
+    "question": "Definition: 'Relocate the ankle'",
+    "options": [
+      { "text": "Surgically reattaching/correcting a joint", "isCorrect": true, "feedback": "Correct." },
+      { "text": "Moving patient", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "Amputating", "isCorrect": false, "feedback": "Incorrect." }
+    ]
+  },
+  {
+    "category": "Trauma Case (Matching)",
+    "question": "Definition: 'PVCs'",
     "options": [
       { "text": "Premature Ventricular Contractions", "isCorrect": true, "feedback": "Correct." },
-      { "text": "Posterior Vascular Conditions", "isCorrect": false, "feedback": "Incorrect." },
       { "text": "Pulmonary Valve Constrictions", "isCorrect": false, "feedback": "Incorrect." },
-      { "text": "Patient Vital Checks", "isCorrect": false, "feedback": "Incorrect." }
+      { "text": "Posterior Vascular Conditions", "isCorrect": false, "feedback": "Incorrect." }
+    ]
+  },
+  {
+    "category": "Trauma Case (Matching)",
+    "question": "Definition: 'Monitor vitals'",
+    "options": [
+      { "text": "Observing BP, heart rate, oxygen", "isCorrect": true, "feedback": "Correct." },
+      { "text": "Inserting a catheter", "isCorrect": false, "feedback": "Incorrect." },
+      { "text": "Ensuring comfort", "isCorrect": false, "feedback": "Incorrect." }
     ]
   }
 ]
