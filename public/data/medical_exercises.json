@@ -1,0 +1,100 @@
+[
+  {
+    "id": "neuro_case",
+    "type": "gap_fill_text",
+    "title": "Neurology & Surgery Case",
+    "instruction": "Fill in the blanks using the Word Bank below.",
+    "textParts": [
+      "A 45-year-old patient was admitted with sudden weakness and ",
+      " on the right side of the body. Imaging revealed a ",
+      " in the posterior fossa causing pressure on surrounding structures. The neurosurgical team planned a ",
+      " to access the tumor safely. Before surgery, the anesthesiologist had to ",
+      " the patient due to ",
+      " breathing caused by increased intracranial pressure."
+    ],
+    "answers": ["stroke", "benign tumor", "suboccipital approach", "intubate", "shallow"],
+    "wordBank": [
+      "benign tumor", "stroke", "intubate", "suboccipital approach", "shallow"
+    ]
+  },
+  {
+    "id": "word_formation_full",
+    "type": "word_formation",
+    "title": "Word Formation (26 Tasks)",
+    "instruction": "Form the correct word from the base word in brackets to complete the sentence.",
+    "questions": [
+      { "sentence": "The wound looked normal %input% (external), but serious bleeding continued %input% (internal).", "answers": ["externally", "internally"] },
+      { "sentence": "The patient became %input% (hemodynamic) unstable.", "answers": ["hemodynamically"] },
+      { "sentence": "The mass was extremely %input% (vascular), carrying high bleeding risk.", "answers": ["hypervascular"] },
+      { "sentence": "The patient remained %input% (hypotension) despite fluids.", "answers": ["hypotensive"] },
+      { "sentence": "Tests confirmed the tumor was %input% (benign).", "answers": ["benign"] },
+      { "sentence": "Pathology revealed %input% (malignancy) changes.", "answers": ["malignant"] },
+      { "sentence": "The procedure was minimally %input% (invasion).", "answers": ["invasive"] },
+      { "sentence": "Signs of %input% (premature) birth at 32 weeks.", "answers": ["premature"] },
+      { "sentence": "Blood gas indicated the patient was %input% (acidosis).", "answers": ["acidotic"] },
+      { "sentence": "Discarded the %input% (expire) medication.", "answers": ["expired"] },
+      { "sentence": "Required a %input% (neonate) specialist.", "answers": ["neonatal"] },
+      { "sentence": "Devices were correctly %input% (install).", "answers": ["installed"] },
+      { "sentence": "Medication had been %input% (administer).", "answers": ["administered"] },
+      { "sentence": "Surgical field was fully %input% (prep).", "answers": ["prepped"] },
+      { "sentence": "Need to %input% (assessment) lung function.", "answers": ["assess"] },
+      { "sentence": "Body can %input% (compensation) for a failing organ.", "answers": ["compensate"] },
+      { "sentence": "Surgeon used heat to %input% (fry) the tissue.", "answers": ["fry"] },
+      { "sentence": "Temporarily %input% (alteration) cognitive response.", "answers": ["alter"] },
+      { "sentence": "Planned to %input% (implant) a stimulator.", "answers": ["implant"] },
+      { "sentence": "No choice but to %input% (amputation) the limb.", "answers": ["amputate"] },
+      { "sentence": "Patient's %input% (recover) was slower than expected.", "answers": ["recovery"] },
+      { "sentence": "Ultrasound showed a deep %input% (abscess).", "answers": ["abscess"] },
+      { "sentence": "Abnormal %input% (culture) growing in blood.", "answers": ["cultures"] },
+      { "sentence": "Prescribed broad-%input% (spectrum) antibiotics.", "answers": ["spectrum"] },
+      { "sentence": "An %input% (endovascular) procedure was chosen.", "answers": ["endovascular"] },
+      { "sentence": "Advanced carefully toward the %input% (jugular) vein.", "answers": ["jugular"] }
+    ]
+  },
+  {
+    "id": "correction_full",
+    "type": "correction",
+    "title": "Error Correction (20 Tasks)",
+    "instruction": "Find the mistake in the phrase (in quotes) and type the correct medical phrase.",
+    "questions": [
+      { "context": "Patient was 'put under monitor' to check BP.", "error": "put under monitor", "correct": "placed on a monitor" },
+      { "context": "Doctors 'ran out a CT scan' to confirm.", "error": "ran out a CT scan", "correct": "carried out a CT scan" },
+      { "context": "Nurse 'filled in IV fluids' too quickly.", "error": "filled in IV fluids", "correct": "administered IV fluids" },
+      { "context": "Patient 'came down with sudden high fever'.", "error": "came down with", "correct": "developed" },
+      { "context": "Surgeon 'worked off the tumor' carefully.", "error": "worked off", "correct": "resected" },
+      { "context": "Anesthetist 'kept up the airway open'.", "error": "kept up", "correct": "maintained" },
+      { "context": "Cardiology 'picked up irregular heart beats'.", "error": "picked up", "correct": "detected" },
+      { "context": "Resident 'went through patient’s history' quickly.", "error": "went through", "correct": "went over" },
+      { "context": "ICU staff 'kept in touch vitals'.", "error": "kept in touch", "correct": "monitored" },
+      { "context": "Team had to 'cut down bleeding'.", "error": "cut down", "correct": "control" },
+      { "context": "Patient 'checked in the lab results'.", "error": "checked in", "correct": "checked" },
+      { "context": "Neurologist 'ran over the EEG findings'.", "error": "ran over", "correct": "went over" },
+      { "context": "Patient 'turned up with swollen ankle'.", "error": "turned up", "correct": "presented" },
+      { "context": "Doctor 'handed off the case' to nurse.", "error": "handed off", "correct": "handed the case over" },
+      { "context": "Nurse 'put on a dressing'.", "error": "put on", "correct": "applied" },
+      { "context": "Team 'broke down the tumor mass'.", "error": "broke down", "correct": "debulked" },
+      { "context": "Patient 'got over mild dizziness'.", "error": "got over", "correct": "recovered from" },
+      { "context": "Physician 'called out a specialist'.", "error": "called out", "correct": "called in" },
+      { "context": "Patient 'brought up chest tightness'.", "error": "brought up", "correct": "reported" },
+      { "context": "Trainee 'went along the post-op instructions'.", "error": "went along", "correct": "went through" }
+    ]
+  },
+  {
+    "id": "scrambled_sentences",
+    "type": "reorder",
+    "title": "Sentence Reordering",
+    "instruction": "Unscramble the words to form a correct medical sentence.",
+    "questions": [
+      { "scrambled": "malignant / biopsy / confirmed / tumor / the / a / patient’s", "correct": "The patient’s biopsy confirmed a malignant tumor" },
+      { "scrambled": "necrotic / tissue / surgeon / removed / carefully / to / the", "correct": "The surgeon carefully removed necrotic tissue" },
+      { "scrambled": "patient / experienced / temporary / paralysis / posterior / after / surgery", "correct": "The patient experienced temporary posterior paralysis after surgery" },
+      { "scrambled": "surgeon / debride / instructed / to / the / wound / regularly", "correct": "The surgeon instructed to debride the wound regularly" },
+      { "scrambled": "to / resect / neurosurgeon / planned / carefully / a / tumor", "correct": "The neurosurgeon planned to carefully resect a tumor" },
+      { "scrambled": "pain / medications / administered / to / the / patient / doctor / instructed", "correct": "The doctor instructed medications to be administered to the patient" },
+      { "scrambled": "induce / medications / may / side-effects / certain / to / the", "correct": "Certain medications may induce side-effects" },
+      { "scrambled": "debulk / the / tumor / team / carefully / decided / to", "correct": "The team decided to carefully debulk the tumor" },
+      { "scrambled": "preserve / hearing / surgeons / procedure / the / aim / to", "correct": "Surgeons aim to preserve hearing during the procedure" },
+      { "scrambled": "terminate / pregnancy / due / doctors / severe / complications / had / to", "correct": "Due to severe complications doctors had to terminate the pregnancy" }
+    ]
+  }
+]

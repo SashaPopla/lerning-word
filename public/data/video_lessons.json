@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Dr. Shaun stops an ongoing surgery",
+    "youtubeId": "WxCp-7RYL9E",
+    "description": "Watch Dr. Shaun intervene during a procedure. Learn vocabulary related to surgery protocols.",
+    "vocabulary": [
+      { "word": "anomaly", "def": "Something abnormal or irregular" },
+      { "word": "incision", "def": "A cut made during surgery" },
+      { "word": "complication", "def": "An unexpected medical problem" },
+      { "word": "sterile", "def": "Completely clean and free from bacteria" },
+      { "word": "protocol", "def": "A set of rules or procedures" },
+      { "word": "contamination", "def": "The presence of harmful substances or infection" },
+      { "word": "intervene", "def": "To step in or take action to prevent harm" }
+    ],
+    "questions": [
+      {
+        "question": "Why does Dr. Shaun stop the surgery?",
+        "options": [
+          { "text": "He notices an anomaly not seen on scans", "isCorrect": true },
+          { "text": "He is tired and needs a break", "isCorrect": false },
+          { "text": "The patient woke up", "isCorrect": false }
+        ],
+        "feedback": "Correct! He saw an anomaly that could cause complications."
+      },
+      {
+        "question": "Complete the quote: 'We need to close the ___ immediately.'",
+        "options": [
+          { "text": "incision", "isCorrect": true },
+          { "text": "door", "isCorrect": false },
+          { "text": "protocol", "isCorrect": false }
+        ],
+        "feedback": "Correct. They need to close the surgical cut."
+      },
+      {
+        "question": "What word describes a 'set of rules to follow'?",
+        "options": [
+          { "text": "Protocol", "isCorrect": true },
+          { "text": "Suggestion", "isCorrect": false },
+          { "text": "Diagnosis", "isCorrect": false }
+        ],
+        "feedback": "Correct. Breaking protocol is a serious issue in surgery."
+      },
+      {
+        "question": "Dr. Lim warns: 'If we continue, there’s a high risk of ___.'",
+        "options": [
+          { "text": "complication", "isCorrect": true },
+          { "text": "success", "isCorrect": false },
+          { "text": "recovery", "isCorrect": false }
+        ],
+        "feedback": "Correct. Unexpected anomalies lead to complications."
+      },
+      {
+        "question": "Dr. Shaun decides to ___ despite the risk of breaking protocol.",
+        "options": [
+          { "text": "intervene", "isCorrect": true },
+          { "text": "leave", "isCorrect": false },
+          { "text": "sleep", "isCorrect": false }
+        ],
+        "feedback": "Correct. To intervene means to step in and stop the action."
+      },
+      {
+        "question": "The team checks for possible ___ of the surgical field.",
+        "options": [
+          { "text": "contamination", "isCorrect": true },
+          { "text": "sterilization", "isCorrect": false },
+          { "text": "illumination", "isCorrect": false }
+        ],
+        "feedback": "Correct. Contamination makes the area unsafe for surgery."
+      },
+      {
+        "question": "It is crucial to keep the instruments ___.",
+        "options": [
+          { "text": "sterile", "isCorrect": true },
+          { "text": "dirty", "isCorrect": false },
+          { "text": "sharp", "isCorrect": false }
+        ],
+        "feedback": "Correct. Sterile means free from bacteria."
+      }
+    ]
+  }
+]
