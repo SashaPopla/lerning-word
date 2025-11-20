@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Dr. Shaun stops an ongoing surgery",
+    "title": "1 Dr. Shaun stops an ongoing surgery",
     "youtubeId": "videoplayback",
     "description": "Dr. Murphy notices an anomaly during a procedure and decides to intervene. Learn key surgical vocabulary.",
     "vocabulary": [
@@ -155,7 +155,7 @@
   },
   {
     "id": 2,
-    "title": "Sinus Infection Case",
+    "title": "2 Sinus Infection Case",
     "youtubeId": "videoplayback2", 
     "description": "Dr. Shaun identifies a blocked sinus and performs a drainage procedure. Vocabulary: congestion, drainage, inflammation.",
     "vocabulary": [
@@ -247,7 +247,7 @@
   },
   {
     "id": 3,
-    "title": "Hidden Questions in Dr. Shaun's Mind",
+    "title": "3 Hidden Questions in Dr. Shaun's Mind",
     "youtubeId": "videoplayback3",
     "description": "Dr. Shaun questions a diagnosis and faces an ethical dilemma. Vocabulary: assumption, probe, dilemma, strategist.",
     "vocabulary": [
@@ -321,8 +321,8 @@
   },
   {
     "id": 4,
-    "title": "Hidden Questions in Dr. Shaun's Mind",
-    "youtubeId": "91r0ccDuOzE",
+    "title": "4 Dr. Shaun explores some of the most unique medical mysteries of all time",
+    "youtubeId": "videoplayback4",
     "description": "Dr. Shaun questions a diagnosis and faces an ethical dilemma. Vocabulary: assumption, probe, dilemma.",
     "vocabulary": [
       { "word": "assumption", "def": "Accepted as true without proof" },
