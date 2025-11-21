@@ -5,149 +5,311 @@
     "youtubeId": "videoplayback",
     "description": "Dr. Murphy notices an anomaly during a procedure and decides to intervene. Learn key surgical vocabulary.",
     "vocabulary": [
-      { "word": "procedure", "def": "A medical operation or method of treatment" },
-      { "word": "anomaly", "def": "Something abnormal or irregular in a patient’s body" },
-      { "word": "incision", "def": "A cut made during surgery" },
-      { "word": "complication", "def": "An unexpected medical problem during or after surgery" },
-      { "word": "sterile", "def": "Completely clean and free from bacteria" },
-      { "word": "contamination", "def": "The presence of harmful substances or infection" },
-      { "word": "diagnosis", "def": "The act of identifying a disease from its signs" },
-      { "word": "intervene", "def": "To step in or take action to prevent harm" },
-      { "word": "protocol", "def": "A set of rules or procedures to follow" },
-      { "word": "suture", "def": "A stitch used to close a wound" }
+      {
+        "word": "procedure",
+        "def": "A medical operation or method of treatment"
+      },
+      {
+        "word": "anomaly",
+        "def": "Something abnormal or irregular in a patient’s body"
+      },
+      {
+        "word": "incision",
+        "def": "A cut made during surgery"
+      },
+      {
+        "word": "complication",
+        "def": "An unexpected medical problem during or after surgery"
+      },
+      {
+        "word": "sterile",
+        "def": "Completely clean and free from bacteria"
+      },
+      {
+        "word": "contamination",
+        "def": "The presence of harmful substances or infection"
+      },
+      {
+        "word": "diagnosis",
+        "def": "The act of identifying a disease from its signs"
+      },
+      {
+        "word": "intervene",
+        "def": "To step in or take action to prevent harm"
+      },
+      {
+        "word": "protocol",
+        "def": "A set of rules or procedures to follow"
+      },
+      {
+        "word": "suture",
+        "def": "A stitch used to close a wound"
+      }
     ],
     "questions": [
       {
         "question": "General Understanding: Why does Dr. Shaun stop the surgery?",
         "options": [
-          { "text": "He notices an anomaly not seen on scans", "isCorrect": true },
-          { "text": "He is tired and needs a break", "isCorrect": false },
-          { "text": "He forgot the correct procedure", "isCorrect": false }
+          {
+            "text": "He notices an anomaly not seen on scans",
+            "isCorrect": true
+          },
+          {
+            "text": "He is tired and needs a break",
+            "isCorrect": false
+          },
+          {
+            "text": "He forgot the correct procedure",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. He saw something irregular that wasn't in the plan."
       },
       {
         "question": "How does the surgical team initially react to his interruption?",
         "options": [
-          { "text": "They are surprised and hesitant", "isCorrect": true },
-          { "text": "They immediately agree with him", "isCorrect": false },
-          { "text": "They ask him to leave the room", "isCorrect": false }
+          {
+            "text": "They are surprised and hesitant",
+            "isCorrect": true
+          },
+          {
+            "text": "They immediately agree with him",
+            "isCorrect": false
+          },
+          {
+            "text": "They ask him to leave the room",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Stopping mid-surgery breaks protocol, so they were shocked."
       },
       {
         "question": "Gap Fill: 'This ___ isn’t what the scans showed — stop cutting!'",
         "options": [
-          { "text": "anomaly", "isCorrect": true },
-          { "text": "procedure", "isCorrect": false },
-          { "text": "protocol", "isCorrect": false }
+          {
+            "text": "anomaly",
+            "isCorrect": true
+          },
+          {
+            "text": "procedure",
+            "isCorrect": false
+          },
+          {
+            "text": "protocol",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Anomaly means something abnormal."
       },
       {
         "question": "Gap Fill: 'We need to close the ___ immediately and reassess.'",
         "options": [
-          { "text": "incision", "isCorrect": true },
-          { "text": "door", "isCorrect": false },
-          { "text": "monitor", "isCorrect": false }
+          {
+            "text": "incision",
+            "isCorrect": true
+          },
+          {
+            "text": "door",
+            "isCorrect": false
+          },
+          {
+            "text": "monitor",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Incision is the surgical cut."
       },
       {
         "question": "Gap Fill: 'If we continue, there’s a high risk of ___.'",
         "options": [
-          { "text": "complication", "isCorrect": true },
-          { "text": "success", "isCorrect": false },
-          { "text": "recovery", "isCorrect": false }
+          {
+            "text": "complication",
+            "isCorrect": true
+          },
+          {
+            "text": "success",
+            "isCorrect": false
+          },
+          {
+            "text": "recovery",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Unexpected actions lead to complications."
       },
       {
         "question": "Gap Fill: 'Dr. Murphy, you can’t just ___ in the middle of an operation!'",
         "options": [
-          { "text": "intervene", "isCorrect": true },
-          { "text": "sleep", "isCorrect": false },
-          { "text": "leave", "isCorrect": false }
+          {
+            "text": "intervene",
+            "isCorrect": true
+          },
+          {
+            "text": "sleep",
+            "isCorrect": false
+          },
+          {
+            "text": "leave",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. To intervene means to step in."
       },
       {
         "question": "Gap Fill: 'There’s possible ___ of the surgical field.'",
         "options": [
-          { "text": "contamination", "isCorrect": true },
-          { "text": "sterilization", "isCorrect": false },
-          { "text": "illumination", "isCorrect": false }
+          {
+            "text": "contamination",
+            "isCorrect": true
+          },
+          {
+            "text": "sterilization",
+            "isCorrect": false
+          },
+          {
+            "text": "illumination",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Contamination means the area is no longer sterile."
       },
       {
         "question": "Gap Fill: 'Keep the area ___, change gloves, new instruments.'",
         "options": [
-          { "text": "sterile", "isCorrect": true },
-          { "text": "warm", "isCorrect": false },
-          { "text": "open", "isCorrect": false }
+          {
+            "text": "sterile",
+            "isCorrect": true
+          },
+          {
+            "text": "warm",
+            "isCorrect": false
+          },
+          {
+            "text": "open",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Sterile means germ-free."
       },
       {
         "question": "Gap Fill: 'Let’s double-check the patient’s ___; maybe we missed something.'",
         "options": [
-          { "text": "diagnosis", "isCorrect": true },
-          { "text": "name", "isCorrect": false },
-          { "text": "insurance", "isCorrect": false }
+          {
+            "text": "diagnosis",
+            "isCorrect": true
+          },
+          {
+            "text": "name",
+            "isCorrect": false
+          },
+          {
+            "text": "insurance",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. They need to verify what disease they are treating."
       },
       {
         "question": "Gap Fill: 'We’ll need to ___ and re-suture the area.'",
         "options": [
-          { "text": "suture", "isCorrect": true },
-          { "text": "cut", "isCorrect": false },
-          { "text": "break", "isCorrect": false }
+          {
+            "text": "suture",
+            "isCorrect": true
+          },
+          {
+            "text": "cut",
+            "isCorrect": false
+          },
+          {
+            "text": "break",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Suture means to stitch up."
       },
       {
         "question": "Gap Fill: 'We must follow hospital ___ even if the situation changes.'",
         "options": [
-          { "text": "protocol", "isCorrect": true },
-          { "text": "gossip", "isCorrect": false },
-          { "text": "map", "isCorrect": false }
+          {
+            "text": "protocol",
+            "isCorrect": true
+          },
+          {
+            "text": "gossip",
+            "isCorrect": false
+          },
+          {
+            "text": "map",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Protocol is the set of rules."
       },
       {
         "question": "Gap Fill: 'It’s rare to stop a ___ halfway, but Shaun made the right call.'",
         "options": [
-          { "text": "procedure", "isCorrect": true },
-          { "text": "lunch", "isCorrect": false },
-          { "text": "meeting", "isCorrect": false }
+          {
+            "text": "procedure",
+            "isCorrect": true
+          },
+          {
+            "text": "lunch",
+            "isCorrect": false
+          },
+          {
+            "text": "meeting",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Procedure refers to the medical operation."
       },
       {
         "question": "Post-Watching: Was Shaun right to stop the procedure?",
         "options": [
-          { "text": "Yes, he prioritized patient safety", "isCorrect": true },
-          { "text": "No, he should have stayed quiet", "isCorrect": false }
+          {
+            "text": "Yes, he prioritized patient safety",
+            "isCorrect": true
+          },
+          {
+            "text": "No, he should have stayed quiet",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Patient safety always comes first."
       },
       {
         "question": "Definition Check: What is a 'suture'?",
         "options": [
-          { "text": "A stitch used to close a wound", "isCorrect": true },
-          { "text": "A type of medicine", "isCorrect": false },
-          { "text": "A surgical knife", "isCorrect": false }
+          {
+            "text": "A stitch used to close a wound",
+            "isCorrect": true
+          },
+          {
+            "text": "A type of medicine",
+            "isCorrect": false
+          },
+          {
+            "text": "A surgical knife",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct."
       },
       {
         "question": "Definition Check: What does 'sterile' mean?",
         "options": [
-          { "text": "Completely clean and free from bacteria", "isCorrect": true },
-          { "text": "Very cold", "isCorrect": false },
-          { "text": "Dangerous", "isCorrect": false }
+          {
+            "text": "Completely clean and free from bacteria",
+            "isCorrect": true
+          },
+          {
+            "text": "Very cold",
+            "isCorrect": false
+          },
+          {
+            "text": "Dangerous",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct."
       }
@@ -156,90 +318,192 @@
   {
     "id": 2,
     "title": "2 Sinus Infection Case",
-    "youtubeId": "videoplayback2", 
+    "youtubeId": "videoplayback2",
     "description": "Dr. Shaun identifies a blocked sinus and performs a drainage procedure. Vocabulary: congestion, drainage, inflammation.",
     "vocabulary": [
-      { "word": "transplant", "def": "Transfer of an organ or tissue from one person to another" },
-      { "word": "donor", "def": "Person or body who gives something for use in another" },
-      { "word": "biopsy", "def": "A medical test removing tissue to examine it for disease" },
-      { "word": "irrigation", "def": "The removal or clearing out of waste or unwanted matter" },
-      { "word": "viable", "def": "Able to live or be used; capable of functioning" },
-      { "word": "complication", "def": "Something that increases the difficulty or risk" },
-      { "word": "conduit", "def": "A pipe or channel used to carry fluid or other items" },
-      { "word": "acute", "def": "Sudden, sharp, severe condition" },
-      { "word": "debris", "def": "Material left over or fragments" },
-      { "word": "consent", "def": "The act of giving permission for a medical procedure" }
+      {
+        "word": "transplant",
+        "def": "Transfer of an organ or tissue from one person to another"
+      },
+      {
+        "word": "donor",
+        "def": "Person or body who gives something for use in another"
+      },
+      {
+        "word": "biopsy",
+        "def": "A medical test removing tissue to examine it for disease"
+      },
+      {
+        "word": "irrigation",
+        "def": "The removal or clearing out of waste or unwanted matter"
+      },
+      {
+        "word": "viable",
+        "def": "Able to live or be used; capable of functioning"
+      },
+      {
+        "word": "complication",
+        "def": "Something that increases the difficulty or risk"
+      },
+      {
+        "word": "conduit",
+        "def": "A pipe or channel used to carry fluid or other items"
+      },
+      {
+        "word": "acute",
+        "def": "Sudden, sharp, severe condition"
+      },
+      {
+        "word": "debris",
+        "def": "Material left over or fragments"
+      },
+      {
+        "word": "consent",
+        "def": "The act of giving permission for a medical procedure"
+      }
     ],
     "questions": [
       {
         "question": "The surgeon says: 'We need the donor liver to remain ___ so we can implant it successfully.'",
         "options": [
-          { "text": "viable", "isCorrect": true },
-          { "text": "cold", "isCorrect": false },
-          { "text": "dry", "isCorrect": false }
+          {
+            "text": "viable",
+            "isCorrect": true
+          },
+          {
+            "text": "cold",
+            "isCorrect": false
+          },
+          {
+            "text": "dry",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Viable means capable of functioning."
       },
       {
         "question": "The team discovers ___ in the vascular conduit that could cause graft failure.",
         "options": [
-          { "text": "debris", "isCorrect": true },
-          { "text": "blood", "isCorrect": false },
-          { "text": "air", "isCorrect": false }
+          {
+            "text": "debris",
+            "isCorrect": true
+          },
+          {
+            "text": "blood",
+            "isCorrect": false
+          },
+          {
+            "text": "air",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Debris refers to waste or fragments."
       },
       {
         "question": "The patient’s condition changed from chronic to ___, requiring immediate attention.",
         "options": [
-          { "text": "acute", "isCorrect": true },
-          { "text": "mild", "isCorrect": false },
-          { "text": "stable", "isCorrect": false }
+          {
+            "text": "acute",
+            "isCorrect": true
+          },
+          {
+            "text": "mild",
+            "isCorrect": false
+          },
+          {
+            "text": "stable",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Acute means sudden and severe."
       },
       {
         "question": "Before transferring the child, the parents sign ___ for the procedure.",
         "options": [
-          { "text": "consent", "isCorrect": true },
-          { "text": "checks", "isCorrect": false },
-          { "text": "autographs", "isCorrect": false }
+          {
+            "text": "consent",
+            "isCorrect": true
+          },
+          {
+            "text": "checks",
+            "isCorrect": false
+          },
+          {
+            "text": "autographs",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Consent is permission."
       },
       {
         "question": "A ___ of infection makes the transplant more complicated.",
         "options": [
-          { "text": "complication", "isCorrect": true },
-          { "text": "solution", "isCorrect": false },
-          { "text": "benefit", "isCorrect": false }
+          {
+            "text": "complication",
+            "isCorrect": true
+          },
+          {
+            "text": "solution",
+            "isCorrect": false
+          },
+          {
+            "text": "benefit",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct."
       },
       {
         "question": "They perform liver irrigation to flush out remaining blood and ___.",
         "options": [
-          { "text": "debris", "isCorrect": true },
-          { "text": "water", "isCorrect": false },
-          { "text": "cells", "isCorrect": false }
+          {
+            "text": "debris",
+            "isCorrect": true
+          },
+          {
+            "text": "water",
+            "isCorrect": false
+          },
+          {
+            "text": "cells",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct."
       },
       {
         "question": "The donor is flown in using a temporary ___ for transport.",
         "options": [
-          { "text": "conduit", "isCorrect": true },
-          { "text": "box", "isCorrect": false },
-          { "text": "plane", "isCorrect": false }
+          {
+            "text": "conduit",
+            "isCorrect": true
+          },
+          {
+            "text": "box",
+            "isCorrect": false
+          },
+          {
+            "text": "plane",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Conduit refers to the channel/method used."
       },
       {
         "question": "The tissue biopsy confirms the organ is free of disease and is ___ for transplant.",
         "options": [
-          { "text": "viable", "isCorrect": true },
-          { "text": "ready", "isCorrect": false },
-          { "text": "large", "isCorrect": false }
+          {
+            "text": "viable",
+            "isCorrect": true
+          },
+          {
+            "text": "ready",
+            "isCorrect": false
+          },
+          {
+            "text": "large",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct."
       }
@@ -251,201 +515,433 @@
     "youtubeId": "videoplayback3",
     "description": "Dr. Shaun questions a diagnosis and faces an ethical dilemma. Vocabulary: assumption, probe, dilemma, strategist.",
     "vocabulary": [
-      { "word": "lingering", "def": "Continuing for a long time, often not wanted" },
-      { "word": "assumption", "def": "Something accepted as true without proof" },
-      { "word": "consultation", "def": "A meeting with an expert to seek advice" },
-      { "word": "anxious", "def": "Very worried or nervous about something" },
-      { "word": "probe", "def": "To examine or explore something carefully" },
-      { "word": "underlying", "def": "Real but not immediately obvious" },
-      { "word": "dilemma", "def": "A situation in which a difficult choice must be made" },
-      { "word": "strategist", "def": "A person skilled in planning or managing a plan" },
-      { "word": "disclosure", "def": "The act of making something known or public" },
-      { "word": "perspective", "def": "A particular attitude or way of thinking about something" }
+      {
+        "word": "lingering",
+        "def": "Continuing for a long time, often not wanted"
+      },
+      {
+        "word": "assumption",
+        "def": "Something accepted as true without proof"
+      },
+      {
+        "word": "consultation",
+        "def": "A meeting with an expert to seek advice"
+      },
+      {
+        "word": "anxious",
+        "def": "Very worried or nervous about something"
+      },
+      {
+        "word": "probe",
+        "def": "To examine or explore something carefully"
+      },
+      {
+        "word": "underlying",
+        "def": "Real but not immediately obvious"
+      },
+      {
+        "word": "dilemma",
+        "def": "A situation in which a difficult choice must be made"
+      },
+      {
+        "word": "strategist",
+        "def": "A person skilled in planning or managing a plan"
+      },
+      {
+        "word": "disclosure",
+        "def": "The act of making something known or public"
+      },
+      {
+        "word": "perspective",
+        "def": "A particular attitude or way of thinking about something"
+      }
     ],
     "questions": [
       {
         "question": "Dr. Shaun says: 'I keep having this ___ in the back of my mind.'",
         "options": [
-          { "text": "assumption", "isCorrect": true },
-          { "text": "headache", "isCorrect": false },
-          { "text": "dream", "isCorrect": false }
+          {
+            "text": "assumption",
+            "isCorrect": true
+          },
+          {
+            "text": "headache",
+            "isCorrect": false
+          },
+          {
+            "text": "dream",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. He questions his initial assumption."
       },
       {
         "question": "The nurse suggests: 'You need to ___ the underlying cause.'",
         "options": [
-          { "text": "probe", "isCorrect": true },
-          { "text": "ignore", "isCorrect": false },
-          { "text": "hide", "isCorrect": false }
+          {
+            "text": "probe",
+            "isCorrect": true
+          },
+          {
+            "text": "ignore",
+            "isCorrect": false
+          },
+          {
+            "text": "hide",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Probe means to investigate deeply."
       },
       {
         "question": "Dr. Shaun noticed the patient seemed particularly ___ about the test results.",
         "options": [
-          { "text": "anxious", "isCorrect": true },
-          { "text": "happy", "isCorrect": false },
-          { "text": "bored", "isCorrect": false }
+          {
+            "text": "anxious",
+            "isCorrect": true
+          },
+          {
+            "text": "happy",
+            "isCorrect": false
+          },
+          {
+            "text": "bored",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Anxious means worried."
       },
       {
         "question": "Shaun mentions an ethical ___ about how much disclosure the patient should get.",
         "options": [
-          { "text": "dilemma", "isCorrect": true },
-          { "text": "party", "isCorrect": false },
-          { "text": "award", "isCorrect": false }
+          {
+            "text": "dilemma",
+            "isCorrect": true
+          },
+          {
+            "text": "party",
+            "isCorrect": false
+          },
+          {
+            "text": "award",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. A dilemma is a difficult choice."
       },
       {
         "question": "Another doctor advises: 'You have to approach this like a ___.'",
         "options": [
-          { "text": "strategist", "isCorrect": true },
-          { "text": "novice", "isCorrect": false },
-          { "text": "patient", "isCorrect": false }
+          {
+            "text": "strategist",
+            "isCorrect": true
+          },
+          {
+            "text": "novice",
+            "isCorrect": false
+          },
+          {
+            "text": "patient",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Planning ahead like a strategist."
       },
       {
         "question": "What is the 'underlying cause'?",
         "options": [
-          { "text": "The real, hidden reason for the problem", "isCorrect": true },
-          { "text": "The visible symptom on the skin", "isCorrect": false },
-          { "text": "The patient's insurance status", "isCorrect": false }
+          {
+            "text": "The real, hidden reason for the problem",
+            "isCorrect": true
+          },
+          {
+            "text": "The visible symptom on the skin",
+            "isCorrect": false
+          },
+          {
+            "text": "The patient's insurance status",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Underlying means real but not obvious."
       }
     ]
   },
-
   {
     "id": 4,
     "title": "4 Dr. Shaun explores some of the most unique medical mysteries of all time",
     "youtubeId": "videoplayback4",
     "description": "Dr. Shaun explores rare cases that defy current paradigms. Vocabulary: anomaly, perplexing, interdisciplinary.",
     "vocabulary": [
-      { "word": "anomaly", "def": "Something that deviates from the norm" },
-      { "word": "obscure", "def": "Not clearly understood or easily seen" },
-      { "word": "diagnostic", "def": "Relating to diagnosis or identifying a disease" },
-      { "word": "perplexing", "def": "Causing confusion or puzzlement" },
-      { "word": "paradigm", "def": "A typical example or pattern of something" },
-      { "word": "hypothesis", "def": "A proposed explanation made on the basis of little evidence" },
-      { "word": "revelation", "def": "A surprising and previously unknown fact discovered" },
-      { "word": "interdisciplinary", "def": "Involving two or more academic disciplines" },
-      { "word": "manifestation", "def": "A visible or tangible example of something abstract" },
-      { "word": "elusive", "def": "Difficult to find, catch, or achieve" }
+      {
+        "word": "anomaly",
+        "def": "Something that deviates from the norm"
+      },
+      {
+        "word": "obscure",
+        "def": "Not clearly understood or easily seen"
+      },
+      {
+        "word": "diagnostic",
+        "def": "Relating to diagnosis or identifying a disease"
+      },
+      {
+        "word": "perplexing",
+        "def": "Causing confusion or puzzlement"
+      },
+      {
+        "word": "paradigm",
+        "def": "A typical example or pattern of something"
+      },
+      {
+        "word": "hypothesis",
+        "def": "A proposed explanation made on the basis of little evidence"
+      },
+      {
+        "word": "revelation",
+        "def": "A surprising and previously unknown fact discovered"
+      },
+      {
+        "word": "interdisciplinary",
+        "def": "Involving two or more academic disciplines"
+      },
+      {
+        "word": "manifestation",
+        "def": "A visible or tangible example of something abstract"
+      },
+      {
+        "word": "elusive",
+        "def": "Difficult to find, catch, or achieve"
+      }
     ],
     "questions": [
       {
         "question": "Dr. Shaun says: 'This case is not just rare; it’s an ___ that defies our current paradigm.'",
         "options": [
-          { "text": "anomaly", "isCorrect": true },
-          { "text": "accident", "isCorrect": false },
-          { "text": "animal", "isCorrect": false }
+          {
+            "text": "anomaly",
+            "isCorrect": true
+          },
+          {
+            "text": "accident",
+            "isCorrect": false
+          },
+          {
+            "text": "animal",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Anomaly means a deviation from the norm."
       },
       {
         "question": "Narrator: 'Her symptoms were so ___ that even the most experienced specialists were baffled.'",
         "options": [
-          { "text": "perplexing", "isCorrect": true },
-          { "text": "simple", "isCorrect": false },
-          { "text": "funny", "isCorrect": false }
+          {
+            "text": "perplexing",
+            "isCorrect": true
+          },
+          {
+            "text": "simple",
+            "isCorrect": false
+          },
+          {
+            "text": "funny",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Perplexing means confusing."
       },
       {
         "question": "Dr. Shaun: 'The manifestation of the disease is ___ rather than overt.'",
         "options": [
-          { "text": "obscure", "isCorrect": true },
-          { "text": "clear", "isCorrect": false },
-          { "text": "loud", "isCorrect": false }
+          {
+            "text": "obscure",
+            "isCorrect": true
+          },
+          {
+            "text": "clear",
+            "isCorrect": false
+          },
+          {
+            "text": "loud",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Obscure means not clearly seen."
       },
       {
         "question": "We formed an ___ team of cardiology, neurology and infectious-disease.",
         "options": [
-          { "text": "interdisciplinary", "isCorrect": true },
-          { "text": "angry", "isCorrect": false },
-          { "text": "internet", "isCorrect": false }
+          {
+            "text": "interdisciplinary",
+            "isCorrect": true
+          },
+          {
+            "text": "angry",
+            "isCorrect": false
+          },
+          {
+            "text": "internet",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. A team involving multiple disciplines."
       },
       {
         "question": "Finally, a ___: the real culprit was a hidden virus.",
         "options": [
-          { "text": "revelation", "isCorrect": true },
-          { "text": "reservation", "isCorrect": false },
-          { "text": "reception", "isCorrect": false }
+          {
+            "text": "revelation",
+            "isCorrect": true
+          },
+          {
+            "text": "reservation",
+            "isCorrect": false
+          },
+          {
+            "text": "reception",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Revelation is a surprising fact discovered."
       }
     ]
   },
-
   {
     "id": 5,
     "title": "5 Unique Medical Mysteries",
-    "youtubeId": "sV7cBFLabY0",
+    "youtubeId": "videoplayback5",
     "description": "Dr. Shaun explores rare cases that defy current paradigms. Vocabulary: anomaly, perplexing, interdisciplinary.",
     "vocabulary": [
-      { "word": "anomaly", "def": "Something that deviates from the norm" },
-      { "word": "obscure", "def": "Not clearly understood or easily seen" },
-      { "word": "diagnostic", "def": "Relating to diagnosis or identifying a disease" },
-      { "word": "perplexing", "def": "Causing confusion or puzzlement" },
-      { "word": "paradigm", "def": "A typical example or pattern of something" },
-      { "word": "hypothesis", "def": "A proposed explanation based on little evidence" },
-      { "word": "revelation", "def": "A surprising and previously unknown fact discovered" },
-      { "word": "interdisciplinary", "def": "Involving two or more academic disciplines" },
-      { "word": "manifestation", "def": "A visible or tangible example of something abstract" },
-      { "word": "elusive", "def": "Difficult to find, catch, or achieve" }
+      {
+        "word": "anomaly",
+        "def": "Something that deviates from the norm"
+      },
+      {
+        "word": "obscure",
+        "def": "Not clearly understood or easily seen"
+      },
+      {
+        "word": "diagnostic",
+        "def": "Relating to diagnosis or identifying a disease"
+      },
+      {
+        "word": "perplexing",
+        "def": "Causing confusion or puzzlement"
+      },
+      {
+        "word": "paradigm",
+        "def": "A typical example or pattern of something"
+      },
+      {
+        "word": "hypothesis",
+        "def": "A proposed explanation based on little evidence"
+      },
+      {
+        "word": "revelation",
+        "def": "A surprising and previously unknown fact discovered"
+      },
+      {
+        "word": "interdisciplinary",
+        "def": "Involving two or more academic disciplines"
+      },
+      {
+        "word": "manifestation",
+        "def": "A visible or tangible example of something abstract"
+      },
+      {
+        "word": "elusive",
+        "def": "Difficult to find, catch, or achieve"
+      }
     ],
     "questions": [
       {
         "question": "Dr. Shaun says: 'This case is not just rare; it’s an ___ that defies our current paradigm.'",
         "options": [
-          { "text": "anomaly", "isCorrect": true },
-          { "text": "accident", "isCorrect": false },
-          { "text": "animal", "isCorrect": false }
+          {
+            "text": "anomaly",
+            "isCorrect": true
+          },
+          {
+            "text": "accident",
+            "isCorrect": false
+          },
+          {
+            "text": "animal",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Anomaly means a deviation from the norm."
       },
       {
         "question": "Narrator: 'Her symptoms were so ___ that even the most experienced specialists were baffled.'",
         "options": [
-          { "text": "perplexing", "isCorrect": true },
-          { "text": "simple", "isCorrect": false },
-          { "text": "funny", "isCorrect": false }
+          {
+            "text": "perplexing",
+            "isCorrect": true
+          },
+          {
+            "text": "simple",
+            "isCorrect": false
+          },
+          {
+            "text": "funny",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Perplexing means confusing."
       },
       {
         "question": "Dr. Shaun: 'The manifestation of the disease is ___ rather than overt.'",
         "options": [
-          { "text": "obscure", "isCorrect": true },
-          { "text": "clear", "isCorrect": false },
-          { "text": "loud", "isCorrect": false }
+          {
+            "text": "obscure",
+            "isCorrect": true
+          },
+          {
+            "text": "clear",
+            "isCorrect": false
+          },
+          {
+            "text": "loud",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Obscure means not clearly seen."
       },
       {
         "question": "We formed an ___ team of cardiology, neurology and infectious-disease.",
         "options": [
-          { "text": "interdisciplinary", "isCorrect": true },
-          { "text": "angry", "isCorrect": false },
-          { "text": "internet", "isCorrect": false }
+          {
+            "text": "interdisciplinary",
+            "isCorrect": true
+          },
+          {
+            "text": "angry",
+            "isCorrect": false
+          },
+          {
+            "text": "internet",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. A team involving multiple disciplines."
       },
       {
         "question": "Finally, a ___: the real culprit was a hidden virus.",
         "options": [
-          { "text": "revelation", "isCorrect": true },
-          { "text": "reservation", "isCorrect": false },
-          { "text": "reception", "isCorrect": false }
+          {
+            "text": "revelation",
+            "isCorrect": true
+          },
+          {
+            "text": "reservation",
+            "isCorrect": false
+          },
+          {
+            "text": "reception",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Revelation is a surprising fact discovered."
       }
@@ -457,247 +953,1167 @@
     "youtubeId": "videoplayback6",
     "description": "Dr. Murphy notices an anomaly during a procedure and decides to intervene. Learn key surgical vocabulary.",
     "vocabulary": [
-      { "word": "procedure", "def": "A medical operation or method of treatment" },
-      { "word": "anomaly", "def": "Something abnormal or irregular in a patient’s body" },
-      { "word": "incision", "def": "A cut made during surgery" },
-      { "word": "complication", "def": "An unexpected medical problem during or after surgery" },
-      { "word": "sterile", "def": "Completely clean and free from bacteria" },
-      { "word": "contamination", "def": "The presence of harmful substances or infection" },
-      { "word": "diagnosis", "def": "The act of identifying a disease from its signs" },
-      { "word": "intervene", "def": "To step in or take action to prevent harm" },
-      { "word": "protocol", "def": "A set of rules or procedures to follow in medical settings" },
-      { "word": "suture", "def": "A stitch used to close a wound" }
+      {
+        "word": "procedure",
+        "def": "A medical operation or method of treatment"
+      },
+      {
+        "word": "anomaly",
+        "def": "Something abnormal or irregular in a patient’s body"
+      },
+      {
+        "word": "incision",
+        "def": "A cut made during surgery"
+      },
+      {
+        "word": "complication",
+        "def": "An unexpected medical problem during or after surgery"
+      },
+      {
+        "word": "sterile",
+        "def": "Completely clean and free from bacteria"
+      },
+      {
+        "word": "contamination",
+        "def": "The presence of harmful substances or infection"
+      },
+      {
+        "word": "diagnosis",
+        "def": "The act of identifying a disease from its signs"
+      },
+      {
+        "word": "intervene",
+        "def": "To step in or take action to prevent harm"
+      },
+      {
+        "word": "protocol",
+        "def": "A set of rules or procedures to follow in medical settings"
+      },
+      {
+        "word": "suture",
+        "def": "A stitch used to close a wound"
+      }
     ],
     "questions": [
       {
         "question": "General Understanding: Why does Dr. Shaun stop the surgery?",
         "options": [
-          { "text": "He notices an anomaly not seen on scans", "isCorrect": true },
-          { "text": "He is tired and needs a break", "isCorrect": false },
-          { "text": "He forgot the correct procedure", "isCorrect": false }
+          {
+            "text": "He notices an anomaly not seen on scans",
+            "isCorrect": true
+          },
+          {
+            "text": "He is tired and needs a break",
+            "isCorrect": false
+          },
+          {
+            "text": "He forgot the correct procedure",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. He saw something irregular that wasn't in the plan."
       },
       {
         "question": "How does the surgical team initially react to his interruption?",
         "options": [
-          { "text": "They are surprised and hesitant", "isCorrect": true },
-          { "text": "They immediately agree with him", "isCorrect": false },
-          { "text": "They ask him to leave the room", "isCorrect": false }
+          {
+            "text": "They are surprised and hesitant",
+            "isCorrect": true
+          },
+          {
+            "text": "They immediately agree with him",
+            "isCorrect": false
+          },
+          {
+            "text": "They ask him to leave the room",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Stopping mid-surgery breaks protocol, so they were shocked."
       },
       {
         "question": "Gap Fill: 'This ___ isn’t what the scans showed — stop cutting!'",
         "options": [
-          { "text": "anomaly", "isCorrect": true },
-          { "text": "procedure", "isCorrect": false },
-          { "text": "protocol", "isCorrect": false }
+          {
+            "text": "anomaly",
+            "isCorrect": true
+          },
+          {
+            "text": "procedure",
+            "isCorrect": false
+          },
+          {
+            "text": "protocol",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Anomaly means something abnormal."
       },
       {
         "question": "Gap Fill: 'We need to close the ___ immediately and reassess.'",
         "options": [
-          { "text": "incision", "isCorrect": true },
-          { "text": "door", "isCorrect": false },
-          { "text": "monitor", "isCorrect": false }
+          {
+            "text": "incision",
+            "isCorrect": true
+          },
+          {
+            "text": "door",
+            "isCorrect": false
+          },
+          {
+            "text": "monitor",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Incision is the surgical cut."
       },
       {
         "question": "Gap Fill: 'If we continue, there’s a high risk of ___.'",
         "options": [
-          { "text": "complication", "isCorrect": true },
-          { "text": "success", "isCorrect": false },
-          { "text": "recovery", "isCorrect": false }
+          {
+            "text": "complication",
+            "isCorrect": true
+          },
+          {
+            "text": "success",
+            "isCorrect": false
+          },
+          {
+            "text": "recovery",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Unexpected actions lead to complications."
       },
       {
         "question": "Gap Fill: 'Dr. Murphy, you can’t just ___ in the middle of an operation!'",
         "options": [
-          { "text": "intervene", "isCorrect": true },
-          { "text": "sleep", "isCorrect": false },
-          { "text": "leave", "isCorrect": false }
+          {
+            "text": "intervene",
+            "isCorrect": true
+          },
+          {
+            "text": "sleep",
+            "isCorrect": false
+          },
+          {
+            "text": "leave",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. To intervene means to step in."
       },
       {
         "question": "Gap Fill: 'There’s possible ___ of the surgical field.'",
         "options": [
-          { "text": "contamination", "isCorrect": true },
-          { "text": "sterilization", "isCorrect": false },
-          { "text": "illumination", "isCorrect": false }
+          {
+            "text": "contamination",
+            "isCorrect": true
+          },
+          {
+            "text": "sterilization",
+            "isCorrect": false
+          },
+          {
+            "text": "illumination",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Contamination means the area is no longer sterile."
       },
       {
         "question": "Gap Fill: 'Keep the area ___, change gloves, new instruments.'",
         "options": [
-          { "text": "sterile", "isCorrect": true },
-          { "text": "warm", "isCorrect": false },
-          { "text": "open", "isCorrect": false }
+          {
+            "text": "sterile",
+            "isCorrect": true
+          },
+          {
+            "text": "warm",
+            "isCorrect": false
+          },
+          {
+            "text": "open",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Sterile means germ-free."
       },
       {
         "question": "Gap Fill: 'Let’s double-check the patient’s ___; maybe we missed something.'",
         "options": [
-          { "text": "diagnosis", "isCorrect": true },
-          { "text": "name", "isCorrect": false },
-          { "text": "insurance", "isCorrect": false }
+          {
+            "text": "diagnosis",
+            "isCorrect": true
+          },
+          {
+            "text": "name",
+            "isCorrect": false
+          },
+          {
+            "text": "insurance",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. They need to verify what disease they are treating."
       },
       {
         "question": "Gap Fill: 'We’ll need to ___ and re-suture the area.'",
         "options": [
-          { "text": "suture", "isCorrect": true },
-          { "text": "cut", "isCorrect": false },
-          { "text": "break", "isCorrect": false }
+          {
+            "text": "suture",
+            "isCorrect": true
+          },
+          {
+            "text": "cut",
+            "isCorrect": false
+          },
+          {
+            "text": "break",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Suture means to stitch up."
       },
       {
         "question": "Gap Fill: 'We must follow hospital ___ even if the situation changes.'",
         "options": [
-          { "text": "protocol", "isCorrect": true },
-          { "text": "gossip", "isCorrect": false },
-          { "text": "map", "isCorrect": false }
+          {
+            "text": "protocol",
+            "isCorrect": true
+          },
+          {
+            "text": "gossip",
+            "isCorrect": false
+          },
+          {
+            "text": "map",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Protocol is the set of rules."
       },
       {
         "question": "Gap Fill: 'It’s rare to stop a ___ halfway, but Shaun made the right call.'",
         "options": [
-          { "text": "procedure", "isCorrect": true },
-          { "text": "lunch", "isCorrect": false },
-          { "text": "meeting", "isCorrect": false }
+          {
+            "text": "procedure",
+            "isCorrect": true
+          },
+          {
+            "text": "lunch",
+            "isCorrect": false
+          },
+          {
+            "text": "meeting",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct. Procedure refers to the medical operation."
       }
     ]
   },
-  
   {
     "id": 7,
     "title": "Excellent Medical Plan",
-    "youtubeId": "sV7cBFLabY0",
-    "description": "Developing a treatment plan. Vocabulary: diagnosis, recommend, precise, treatment.",
+    "youtubeId": "videoplayback7",
+    "description": "A critical emergency involving a newborn baby. Focuses on medical vocabulary related to resuscitation and vital signs.",
     "vocabulary": [
-      { "word": "diagnosis", "def": "Identifying a disease" },
-      { "word": "recommend", "def": "To suggest or advise" },
-      { "word": "precise", "def": "Accurate and exact" },
-      { "word": "treatment", "def": "Medical care for an illness" },
-      { "word": "consultation", "def": "Meeting with an expert" }
+      {
+        "word": "neonate",
+        "def": "a newborn baby, especially one less than four weeks old"
+      },
+      {
+        "word": "resuscitate",
+        "def": "to revive someone from unconsciousness or apparent death"
+      },
+      {
+        "word": "vitals",
+        "def": "essential body signs such as heartbeat, breathing rate, temperature"
+      },
+      {
+        "word": "oxygenation",
+        "def": "the process of supplying or saturating the body with oxygen"
+      },
+      {
+        "word": "incubator",
+        "def": "a special heated bed used for premature babies"
+      },
+      {
+        "word": "code blue",
+        "def": "a hospital emergency indicating a patient in cardiac arrest"
+      },
+      {
+        "word": "ventilator",
+        "def": "a machine that helps a patient breathe"
+      },
+      {
+        "word": "CPR (cardiopulmonary resuscitation)",
+        "def": "emergency procedure combining chest compressions and artificial respiration"
+      },
+      {
+        "word": "heartbeat",
+        "def": "the regular movement of the heart as it sends blood around the body"
+      },
+      {
+        "word": "flatline",
+        "def": "a continuous line on a monitor showing no heart activity"
+      }
     ],
     "questions": [
       {
-        "question": "Shaun recommends a less ___ procedure.",
+        "question": "The final ___ confirms Shaun’s assumption was right.",
         "options": [
-          { "text": "invasive", "isCorrect": true },
-          { "text": "expensive", "isCorrect": false },
-          { "text": "quick", "isCorrect": false }
+          {
+            "text": "diagnosis",
+            "isCorrect": true
+          },
+          {
+            "text": "guess",
+            "isCorrect": false
+          },
+          {
+            "text": "lunch",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct."
       },
       {
-        "question": "The final ___ confirms Shaun’s assumption was right.",
+        "question": "Shaun recommends a less ___ procedure.",
         "options": [
-          { "text": "diagnosis", "isCorrect": true },
-          { "text": "guess", "isCorrect": false },
-          { "text": "lunch", "isCorrect": false }
+          {
+            "text": "invasive",
+            "isCorrect": true
+          },
+          {
+            "text": "expensive",
+            "isCorrect": false
+          },
+          {
+            "text": "quick",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct."
+      },
+      {
+        "question": "Fill in the gap: “Prepare the ___ — we need to stabilize the infant’s temperature.”",
+        "options": [
+          {
+            "text": "ventilator",
+            "isCorrect": false
+          },
+          {
+            "text": "incubator",
+            "isCorrect": true
+          },
+          {
+            "text": "CPR",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "The incubator is used to stabilize the fragile infant's temperature."
+      },
+      {
+        "question": "Fill in the gap: “Check the baby’s ___ — heart rate and oxygen levels are dropping.”",
+        "options": [
+          {
+            "text": "neonate",
+            "isCorrect": false
+          },
+          {
+            "text": "code blue",
+            "isCorrect": false
+          },
+          {
+            "text": "vitals",
+            "isCorrect": true
+          }
+        ],
+        "feedback": "Heart rate and oxygen levels are essential body signs, or vitals."
+      },
+      {
+        "question": "Fill in the gap: “Start chest compressions! Begin ___ now!”",
+        "options": [
+          {
+            "text": "resuscitate",
+            "isCorrect": false
+          },
+          {
+            "text": "CPR",
+            "isCorrect": true
+          },
+          {
+            "text": "oxygenation",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "Chest compressions are part of the CPR procedure."
+      },
+      {
+        "question": "Fill in the gap: “No response. Connect to the ___ for assisted breathing.”",
+        "options": [
+          {
+            "text": "flatline",
+            "isCorrect": false
+          },
+          {
+            "text": "ventilator",
+            "isCorrect": true
+          },
+          {
+            "text": "incubator",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "The ventilator is a machine that helps a patient breathe."
+      },
+      {
+        "question": "Fill in the gap: “Oxygen saturation is too low; ___ is failing.”",
+        "options": [
+          {
+            "text": "resuscitate",
+            "isCorrect": false
+          },
+          {
+            "text": "oxygenation",
+            "isCorrect": true
+          },
+          {
+            "text": "heartbeat",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "Oxygenation is the process of supplying the body with oxygen."
+      },
+      {
+        "question": "Fill in the gap: “This is a ___ situation — call the emergency team!”",
+        "options": [
+          {
+            "text": "neonate",
+            "isCorrect": false
+          },
+          {
+            "text": "code blue",
+            "isCorrect": true
+          },
+          {
+            "text": "flatline",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "A 'code blue' indicates a hospital emergency, usually cardiac arrest."
+      },
+      {
+        "question": "Fill in the gap: “We’ve lost the ___, there’s no pulse detected.”",
+        "options": [
+          {
+            "text": "heartbeat",
+            "isCorrect": true
+          },
+          {
+            "text": "vitals",
+            "isCorrect": false
+          },
+          {
+            "text": "neonate",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "The heartbeat is the regular movement of the heart, which is checked for a pulse."
+      },
+      {
+        "question": "Fill in the gap: “Continue trying to ___ the baby — don’t stop compressions yet!”",
+        "options": [
+          {
+            "text": "resuscitate",
+            "isCorrect": true
+          },
+          {
+            "text": "flatline",
+            "isCorrect": false
+          },
+          {
+            "text": "ventilator",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "To resuscitate means to revive someone from apparent death."
+      },
+      {
+        "question": "Fill in the gap: “I’m sorry… it’s a ___.”",
+        "options": [
+          {
+            "text": "code blue",
+            "isCorrect": false
+          },
+          {
+            "text": "CPR",
+            "isCorrect": false
+          },
+          {
+            "text": "flatline",
+            "isCorrect": true
+          }
+        ],
+        "feedback": "A flatline shows no heart activity, indicating death."
+      },
+      {
+        "question": "Fill in the gap: “The ___ is too weak, we’re losing temperature fast.”",
+        "options": [
+          {
+            "text": "neonate",
+            "isCorrect": true
+          },
+          {
+            "text": "incubator",
+            "isCorrect": false
+          },
+          {
+            "text": "heartbeat",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "The neonate (newborn baby) is the patient who is weak and losing temperature."
       }
     ]
   },
   {
     "id": 8,
     "title": "Big Medical Mission",
-    "youtubeId": "Xghe1Usq7hs",
-    "description": "Working in a field hospital. Vocabulary: triage, emergency, volunteer, stabilize.",
+    "youtubeId": "videoplayback8",
+    "description": "Developing a precise and patient-safe treatment plan, often involving disagreement among doctors. Vocabulary: diagnosis, recommend, precise, procedure.",
     "vocabulary": [
-      { "word": "triage", "def": "Prioritizing patients based on urgency" },
-      { "word": "mission", "def": "A humanitarian task" },
-      { "word": "volunteer", "def": "Person offering help without payment" },
-      { "word": "stabilize", "def": "Prevent condition from worsening" },
-      { "word": "equipment", "def": "Necessary tools" }
+      {
+        "word": "diagnosis",
+        "def": "A careful judgment made after examining symptoms"
+      },
+      {
+        "word": "treatment plan",
+        "def": "A detailed suggestion for patient treatment"
+      },
+      {
+        "word": "recommend",
+        "def": "To suggest or advise a medical procedure"
+      },
+      {
+        "word": "consultation",
+        "def": "A discussion between doctor and patient before treatment"
+      },
+      {
+        "word": "procedure",
+        "def": "A specific type of medical operation or intervention"
+      },
+      {
+        "word": "precise",
+        "def": "Accurate and exact"
+      },
+      {
+        "word": "complications",
+        "def": "Difficulties or negative outcomes during/after a procedure"
+      },
+      {
+        "word": "evaluate",
+        "def": "To assess or judge the condition of something"
+      },
+      {
+        "word": "surgical",
+        "def": "Relating to surgery or operations"
+      },
+      {
+        "word": "recovery",
+        "def": "The process of getting better after an illness or operation"
+      }
     ],
     "questions": [
       {
         "question": "Shaun establishes a ___ area to sort patients.",
         "options": [
-          { "text": "triage", "isCorrect": true },
-          { "text": "play", "isCorrect": false },
-          { "text": "sleeping", "isCorrect": false }
+          {
+            "text": "triage",
+            "isCorrect": true
+          },
+          {
+            "text": "play",
+            "isCorrect": false
+          },
+          {
+            "text": "sleeping",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct."
       },
       {
         "question": "Nurses worked to ___ the patient’s vital signs.",
         "options": [
-          { "text": "stabilize", "isCorrect": true },
-          { "text": "ignore", "isCorrect": false },
-          { "text": "break", "isCorrect": false }
+          {
+            "text": "stabilize",
+            "isCorrect": true
+          },
+          {
+            "text": "ignore",
+            "isCorrect": false
+          },
+          {
+            "text": "break",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct."
+      },
+      {
+        "question": "Fill in the gap: Shaun ___ a less invasive procedure to reduce the risk.",
+        "options": [
+          {
+            "text": "diagnoses",
+            "isCorrect": false
+          },
+          {
+            "text": "recommends",
+            "isCorrect": true
+          },
+          {
+            "text": "evaluates",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "To recommend is to suggest or advise a course of action[cite: 9]."
+      },
+      {
+        "question": "Fill in the gap: The final ___ confirms Shaun’s assumption was right.",
+        "options": [
+          {
+            "text": "complication",
+            "isCorrect": false
+          },
+          {
+            "text": "diagnosis",
+            "isCorrect": true
+          },
+          {
+            "text": "procedure",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "A diagnosis is a careful judgment made after examining symptoms[cite: 9]."
+      },
+      {
+        "question": "Fill in the gap: The team performs the surgery with ___ coordination.",
+        "options": [
+          {
+            "text": "random",
+            "isCorrect": false
+          },
+          {
+            "text": "precise",
+            "isCorrect": true
+          },
+          {
+            "text": "slow",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "Precise means accurate and exact[cite: 38, 42]."
+      },
+      {
+        "question": "What is the synonym for the term 'recommend'?",
+        "options": [
+          {
+            "text": "assess",
+            "isCorrect": false
+          },
+          {
+            "text": "suggest",
+            "isCorrect": true
+          },
+          {
+            "text": "therapy",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "The synonym for recommend is suggest[cite: 42]."
+      },
+      {
+        "question": "What is the correct form: The correct ___ allowed the team to choose an appropriate treatment.",
+        "options": [
+          {
+            "text": "evaluated",
+            "isCorrect": false
+          },
+          {
+            "text": "diagnosis",
+            "isCorrect": true
+          },
+          {
+            "text": "complications",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "The correct noun form for this context is diagnosis[cite: 56]."
+      },
+      {
+        "question": "What is the correct form: The doctors carefully ___ the patient’s condition before the operation.",
+        "options": [
+          {
+            "text": "diagnosis",
+            "isCorrect": false
+          },
+          {
+            "text": "evaluated",
+            "isCorrect": true
+          },
+          {
+            "text": "recovery",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "The correct verb form is evaluated (past tense of evaluate/assess)[cite: 57, 42]."
+      },
+      {
+        "question": "What is the correct form: Fortunately, there were no ___ during or after surgery.",
+        "options": [
+          {
+            "text": "recovery",
+            "isCorrect": false
+          },
+          {
+            "text": "surgical",
+            "isCorrect": false
+          },
+          {
+            "text": "complications",
+            "isCorrect": true
+          }
+        ],
+        "feedback": "Complications are difficulties or negative outcomes[cite: 59, 42]."
       }
     ]
   },
   {
     "id": 9,
     "title": "Repercussion of First Surgery",
-    "youtubeId": "oj6_yc5kA8U",
-    "description": "Dealing with mistakes in the OR. Vocabulary: repercussion, suture, supervise, complication.",
+    "youtubeId": "videoplayback9",
+    "description": "Shaun Murphy takes the lead on a medical mission in a field hospital after a disaster. Focuses on emergency procedures and working under limited conditions.",
     "vocabulary": [
-      { "word": "repercussion", "def": "Unintended consequence" },
-      { "word": "suture", "def": "Stitch to close a wound" },
-      { "word": "supervise", "def": "To oversee or direct" },
-      { "word": "complication", "def": "Problem after surgery" },
-      { "word": "outcome", "def": "Result of treatment" }
+      {
+        "word": "mission",
+        "def": "A humanitarian task aimed at helping others"
+      },
+      {
+        "word": "volunteer",
+        "def": "A person offering help without payment"
+      },
+      {
+        "word": "perform surgery",
+        "def": "To perform an operation or medical procedure"
+      },
+      {
+        "word": "triage",
+        "def": "A system for prioritizing patients based on medical urgency"
+      },
+      {
+        "word": "emergency",
+        "def": "A dangerous or difficult situation requiring quick medical response"
+      },
+      {
+        "word": "equipment",
+        "def": "Necessary tools and medical supplies"
+      },
+      {
+        "word": "stabilize",
+        "def": "To keep the patient’s condition from worsening"
+      },
+      {
+        "word": "recovery",
+        "def": "The process of getting better after an illness or operation"
+      }
     ],
     "questions": [
       {
         "question": "The patient developed a severe ___ during the operation.",
         "options": [
-          { "text": "complication", "isCorrect": true },
-          { "text": "rash", "isCorrect": false },
-          { "text": "appetite", "isCorrect": false }
+          {
+            "text": "complication",
+            "isCorrect": true
+          },
+          {
+            "text": "rash",
+            "isCorrect": false
+          },
+          {
+            "text": "appetite",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct."
       },
       {
         "question": "They used multiple ___ to control the bleeding.",
         "options": [
-          { "text": "sutures", "isCorrect": true },
-          { "text": "bandaids", "isCorrect": false },
-          { "text": "medicines", "isCorrect": false }
+          {
+            "text": "sutures",
+            "isCorrect": true
+          },
+          {
+            "text": "bandaids",
+            "isCorrect": false
+          },
+          {
+            "text": "medicines",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct."
+      },
+      {
+        "question": "Fill in the gap: Shaun quickly establishes a ___ area to sort patients by injury level.",
+        "options": [
+          {
+            "text": "emergency",
+            "isCorrect": false
+          },
+          {
+            "text": "triage",
+            "isCorrect": true
+          },
+          {
+            "text": "equipment",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "Triage is the system for prioritizing patients based on urgency."
+      },
+      {
+        "question": "Fill in the gap: The lack of proper ___ makes the operation more difficult.",
+        "options": [
+          {
+            "text": "volunteer",
+            "isCorrect": false
+          },
+          {
+            "text": "equipment",
+            "isCorrect": true
+          },
+          {
+            "text": "triage",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "Lack of proper tools (equipment) complicates surgery."
+      },
+      {
+        "question": "Fill in the gap: The team faces an unexpected ___ when the power fails.",
+        "options": [
+          {
+            "text": "recovery",
+            "isCorrect": false
+          },
+          {
+            "text": "complication",
+            "isCorrect": true
+          },
+          {
+            "text": "mission",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "An unexpected problem is a complication."
+      },
+      {
+        "question": "Synonyms: 'emergency care' means...",
+        "options": [
+          {
+            "text": "hospital equipment",
+            "isCorrect": false
+          },
+          {
+            "text": "urgent treatment",
+            "isCorrect": true
+          },
+          {
+            "text": "temporary treatment center",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "Emergency care is equivalent to urgent treatment."
+      },
+      {
+        "question": "The phrase “field conditions” means...",
+        "options": [
+          {
+            "text": "fully equipped hospital rooms",
+            "isCorrect": false
+          },
+          {
+            "text": "outdoor or temporary medical setup",
+            "isCorrect": true
+          },
+          {
+            "text": "standard operation theaters",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "Field conditions refer to an outdoor or temporary medical setup."
+      },
+      {
+        "question": "“Stabilize the patient” means...",
+        "options": [
+          {
+            "text": "cure completely",
+            "isCorrect": false
+          },
+          {
+            "text": "keep the patient’s condition from worsening",
+            "isCorrect": true
+          },
+          {
+            "text": "diagnose the illness",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "To stabilize a patient means to prevent their condition from worsening."
+      },
+      {
+        "question": "Word Form: Nurses worked to ___ the patient’s vital signs.",
+        "options": [
+          {
+            "text": "assist",
+            "isCorrect": false
+          },
+          {
+            "text": "stabilize",
+            "isCorrect": true
+          },
+          {
+            "text": "injure",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "The verb stabilize means to keep the condition from worsening."
+      },
+      {
+        "question": "Word Form: Several patients were seriously ___ in the disaster.",
+        "options": [
+          {
+            "text": "assist",
+            "isCorrect": false
+          },
+          {
+            "text": "operated",
+            "isCorrect": false
+          },
+          {
+            "text": "injured",
+            "isCorrect": true
+          }
+        ],
+        "feedback": "The correct past participle/adjective form is injured."
       }
     ]
   },
   {
     "id": 10,
     "title": "Complex Brain Surgery",
-    "youtubeId": "h7CjM5Xpwb0",
-    "description": "Navigating critical brain structures. Vocabulary: neurosurgery, craniotomy, tumor.",
+    "youtubeId": "videoplayback10",
+    "description": "Shaun performs his first independent surgical procedure which results in an unexpected complication. Focuses on surgical mistakes and accountability.",
     "vocabulary": [
-      { "word": "craniotomy", "def": "Surgical opening of the skull" },
-      { "word": "neurosurgery", "def": "Surgery on the nervous system" },
-      { "word": "tumor", "def": "Abnormal mass of tissue" }
+      {
+        "word": "complication",
+        "def": "An unexpected medical problem after surgery"
+      },
+      {
+        "word": "suture",
+        "def": "Stitch used to close a wound"
+      },
+      {
+        "word": "repercussion",
+        "def": "Long-term consequence or aftereffect of an action"
+      },
+      {
+        "word": "incision",
+        "def": "The cut made during an operation"
+      },
+      {
+        "word": "operate",
+        "def": "To fix or correct a medical problem through surgery"
+      },
+      {
+        "word": "bleeding",
+        "def": "Loss of blood from the circulatory system"
+      },
+      {
+        "word": "supervise",
+        "def": "To oversee or direct an operation"
+      },
+      {
+        "word": "outcome",
+        "def": "The result of treatment or surgery"
+      }
     ],
     "questions": [
       {
         "question": "The surgery involves the ___.",
         "options": [
-          { "text": "brain", "isCorrect": true },
-          { "text": "heart", "isCorrect": false },
-          { "text": "liver", "isCorrect": false }
+          {
+            "text": "brain",
+            "isCorrect": true
+          },
+          {
+            "text": "heart",
+            "isCorrect": false
+          },
+          {
+            "text": "liver",
+            "isCorrect": false
+          }
         ],
         "feedback": "Correct."
+      },
+      {
+        "question": "Fill in the gap: The patient developed a severe ___ during the operation.",
+        "options": [
+          {
+            "text": "incision",
+            "isCorrect": false
+          },
+          {
+            "text": "complication",
+            "isCorrect": true
+          },
+          {
+            "text": "repercussion",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "A complication is an unexpected medical problem during surgery."
+      },
+      {
+        "question": "Fill in the gap: They used multiple ___ to control the bleeding.",
+        "options": [
+          {
+            "text": "repercussions",
+            "isCorrect": false
+          },
+          {
+            "text": "sutures",
+            "isCorrect": true
+          },
+          {
+            "text": "incisions",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "A suture is a stitch used to close a wound or stop bleeding."
+      },
+      {
+        "question": "Fill in the gap: After the surgery, the team discussed possible ___.",
+        "options": [
+          {
+            "text": "bleeding",
+            "isCorrect": false
+          },
+          {
+            "text": "supervisions",
+            "isCorrect": false
+          },
+          {
+            "text": "repercussions",
+            "isCorrect": true
+          }
+        ],
+        "feedback": "Repercussions are long-term consequences or aftereffects of an action."
+      },
+      {
+        "question": "Which term means 'The cut made during an operation'?",
+        "options": [
+          {
+            "text": "suture",
+            "isCorrect": false
+          },
+          {
+            "text": "incision",
+            "isCorrect": true
+          },
+          {
+            "text": "complication",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "Incision is the term for the surgical cut."
+      },
+      {
+        "question": "What does 'Post-op' refer to?",
+        "options": [
+          {
+            "text": "The period before an operation",
+            "isCorrect": false
+          },
+          {
+            "text": "The period during the operation",
+            "isCorrect": false
+          },
+          {
+            "text": "The period after the operation",
+            "isCorrect": true
+          }
+        ],
+        "feedback": "Post-op is short for post-operation."
+      },
+      {
+        "question": "A 'repercussion' is...",
+        "options": [
+          {
+            "text": "an immediate physical symptom",
+            "isCorrect": false
+          },
+          {
+            "text": "a long-term result or consequence",
+            "isCorrect": true
+          },
+          {
+            "text": "a surgical instrument",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "A repercussion is a long-term result or consequence."
+      },
+      {
+        "question": "Synonyms: 'surgical error' means...",
+        "options": [
+          {
+            "text": "patient outcome",
+            "isCorrect": false
+          },
+          {
+            "text": "medical mistake",
+            "isCorrect": true
+          },
+          {
+            "text": "clinical supervision",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "Surgical error is a synonym for medical mistake."
+      },
+      {
+        "question": "Word Form: The patient started to ___ during the operation.",
+        "options": [
+          {
+            "text": "complicated",
+            "isCorrect": false
+          },
+          {
+            "text": "bleed",
+            "isCorrect": true
+          },
+          {
+            "text": "reaction",
+            "isCorrect": false
+          }
+        ],
+        "feedback": "The correct verb form is bleed (to lose blood)."
       }
     ]
   }
